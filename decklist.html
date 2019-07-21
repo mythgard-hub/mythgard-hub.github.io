@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+
+  td {
+    border: 0px;
+    padding: 10px;
+    background-color: #333333;
+  }
+
+  mana_cost {
+    font-size:18px;
+    color:#ffffff;
+    font-family:verdana;
+  }
+
+  gem_cost_b {
+    font-size:18px;
+    color:#8CC7E5;
+    font-family:verdana;
+  }
+
+  gem_cost_o {
+    font-size:18px;
+    color:#D18565;
+    font-family:verdana;
+  }
+
+  card_name {
+    font-size:16px;
+    color:#ffffff;
+    font-family:Arial;
+    /* font-weight: bold; */
+  }
+
+  card_quantity {
+    font-size:12px;
+    color:#ffffff;
+    font-family:arial;
+    font-style: italic;
+  }
+
+
+  /*
+  common = #B7A794
+  uncommon = #A9A9A9
+  rare = #F0D273
+  mythic = #8CC7E5
+ */
+
+  th {
+    text-align: left;
+  }
+  </style>
+  </head>
+
+<body bgcolor="#000000">
+
+<center>
+
+<table border="0" cellpadding="0">
+<tbody>
+<!-- <tr>
+<td bgcolor="#3333333" align="center"><span style="font-size:18px; color:#ffffff; font-family:verdana; align: center">1</span></td>
+<td style="width: 30px;" bgcolor="#3333333" align="center"><span style="font-size:18px; color:#3E81D6; font-family:verdana; align: center">&bull;&bull;&bull;</span></td>
+<td style="width: 300px;" bgcolor="#3E81D6"><span style="font-size:16px; color:#ffffff; font-family:arial; align: center">DAUGHTERS OF THE FOREST</span></td>
+<td bgcolor="#333333"><span style="font-size:12px; color:#ffffff; font-family:arial; align: center"><em>x2</em></span></td>
+</tr>
+
+<tr>
+<td style="padding: 10px; background-color: #333333; text-align: center;"><span style="font-size:18px; color:#ffffff; font-family:verdana; align: center">1</span></td>
+<td style="width: 30px; padding: 10px; background-color: #333333; text-align: center;"><span style="font-size:18px; color:#3E81D6; font-family:verdana; align: center">&bull;</span></td>
+<td style="width: 300px; padding: 10px;" bgcolor="#3E81D6"><span style="font-size:16px; color:#ffffff; font-family:arial; align: center">SINGING STONE</span></td>
+<td bgcolor="#333333"><span style="font-size:12px; color:#ffffff; font-family:arial; align: center"><em>x2</em></span></td>
+<td style="width: 1px;" bgcolor="#ffffff"><span style="font-size:12px; color:#ffffff; font-family:arial; align: center"></td>
+</tr>
+<tr>
+<td bgcolor="#3333333" align="center"><span style="font-size:18px; color:#ffffff; font-family:verdana; align: center">2</span></td>
+<td style="width: 30px;" bgcolor="#3333333" align="center"><span style="font-size:18px; color:#3E81D6; font-family:verdana; align: center">&bull;</span></td>
+<td style="width: 300px;" bgcolor="#3E81D6"><span style="font-size:16px; color:#ffffff; font-family:arial; align: center">ICE SPIKE</span></td>
+<td bgcolor="#333333"><span style="font-size:12px; color:#ffffff; font-family:arial; align: center"><em>x3</em></span></td>
+</tr>
+
+
+-->#F0D273
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>1</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_b>&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #3E81D6"><card_name>SINGING STONE</card_name></td>
+<td><card_quantity>x2</card_quantity></td>
+<td style="width: 4px; padding: 0px; background-color: #F0D273"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>2</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_b>&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #3E81D6"><card_name>ICE SPIKE</card_name></td>
+<td><card_quantity>x3</card_quantity></td>
+<td style="width: 2px; padding: 0px; background-color: #B7A794"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>3</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_b>&bull;&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #3E81D6"><card_name>BRAINSTORM</card_name></td>
+<td><card_quantity>x4</card_quantity></td>
+<td style="width: 2px; padding: 0px; background-color: #B7A794"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>3</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_b>&bull;&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #3E81D6"><card_name>EARTHSLIDE</card_name></td>
+<td><card_quantity>x2</card_quantity></td>
+<td style="width: 4px; padding: 0px; background-color: #F0D273"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>4</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_b>&bull;&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #3E81D6"><card_name>BRAGI RUNESINGER</card_name></td>
+<td><card_quantity>x1</card_quantity></td>
+<td style="width: 4px; padding: 0px; background-color: #8CC7E5"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>4</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_b>&bull;&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #3E81D6"><card_name>RUNE OF DENIAL</card_name></td>
+<td><card_quantity>x1</card_quantity></td>
+<td style="width: 4px; padding: 0px; background-color: #F0D273"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>4</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_b>&bull;&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #3E81D6"><card_name>TAILROOT WURM</card_name></td>
+<td><card_quantity>x3</card_quantity></td>
+<td style="width: 4px; padding: 0px; background-color: #A9A9A9"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>4</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_b>&bull;&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #3E81D6"><card_name>THUNDERCLAP</card_name></td>
+<td><card_quantity>x2</card_quantity></td>
+<td style="width: 4px; padding: 0px; background-color: #F0D273"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>4</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_b>&bull;&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #3E81D6"><card_name>GIANT'S STAIRWAY</card_name></td>
+<td><card_quantity>x2</card_quantity></td>
+<td style="width: 4px; padding: 0px; background-color: #A9A9A9"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>4</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_b>&bull;&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #3E81D6"><card_name>MAGNUS THORSSON</card_name></td>
+<td><card_quantity>x2</card_quantity></td>
+<td style="width: 4px; padding: 0px; background-color: #8CC7E5"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>1</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_o>&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #D18565"><card_name>DUNE CAT</card_name></td>
+<td><card_quantity>x3</card_quantity></td>
+<td style="width: 4px; padding: 0px; background-color: #B7A794"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>2</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_o>&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #D18565"><card_name>DUST DEVIL</card_name></td>
+<td><card_quantity>x2</card_quantity></td>
+<td style="width: 4px; padding: 0px; background-color: #B7A794"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>3</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_o>&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #D18565"><card_name>DUNE COURSER</card_name></td>
+<td><card_quantity>x2</card_quantity></td>
+<td style="width: 4px; padding: 0px; background-color: #A9A9A9"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>3</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_o>&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #D18565"><card_name>SOMA OASIS</card_name></td>
+<td><card_quantity>x1</card_quantity></td>
+<td style="width: 4px; padding: 0px; background-color: #F0D273"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>4</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_o>&bull;&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #D18565"><card_name>RAZIEL, KEEPER OF SECRETS</card_name></td>
+<td><card_quantity>x1</card_quantity></td>
+<td style="width: 4px; padding: 0px; background-color: #8CC7E5"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>4</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_o>&bull;&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #D18565"><card_name>SEAL OF EXILE</card_name></td>
+<td><card_quantity>x3</card_quantity></td>
+<td style="width: 4px; padding: 0px; background-color: #A9A9A9"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>4</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_o>&bull;&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #D18565"><card_name>TREASURY OF PETRA</card_name></td>
+<td><card_quantity>x1</card_quantity></td>
+<td style="width: 4px; padding: 0px; background-color: #8CC7E5"></td>
+</tr>
+
+<tr>
+<td style="background-color: #333333;"><mana_cost>3</mana_cost></td>
+<td style="width: 30px; text-align: center;"><gem_cost_o>&bull;&bull;</gem_cost_b></span></td>
+<td style="width: 300px; background-color: #D18565"><card_name>MARDYKHOR</card_name></td>
+<td><card_quantity>x2</card_quantity></td>
+<td style="width: 4px; padding: 0px; background-color:  #A9A9A9"></td>
+</tr>
+
+
+
+
+</tbody>
+</table>
+
+</center>
+
+</body>
