@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+  <style>
+
+  td {
+    border: 0px;
+    padding: 10px;
+    background-color: #333333;
+  }
+
+  #pathpower {
+    font-size:18px;
+    color:#ffffff;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #333333;
+    text-align: left;
+    colspan="3";
+  }
+
+  #mana_cost {
+    background-color: #333333;
+    font-size:18px;
+    color:#ffffff;
+    font-family: verdana;
+  }
+
+
+  #norden {
+    background-color: #4EB8E7; text-align: left;
+    width: 300px;
+  }
+
+  #aztlan {
+    background-color: #E9E008; text-align: left;
+    width: 300px;
+  }
+
+  #orboros {
+    background-color: #DC1919; text-align: left;
+    width: 300px;
+  }
+
+  #dreni {
+    background-color: #30B170; text-align: left;
+    width: 300px;
+  }
+
+  #parsa {
+    background-color: #F97800; text-align: left;
+    width: 300px;
+  }
+
+  #triusan {
+    background-color: #AC55E9; text-align: left;
+    width: 300px;
+  }
+
+
+
+  /* mana_cost {
+    font-size:18px;
+    color:#ffffff;
+    font-family: verdana;
+  } */
+
+  #gem_cost_b {
+    width: 30px;
+    text-align: center;
+    font-size:18px;
+    color:#4EB8E7;
+    font-family:verdana;
+  }
+
+  #gem_cost_y {
+    width: 30px;
+    text-align: center;
+    font-size:18px;
+    color: #E9E008;
+    font-family:verdana;
+  }
+
+  #gem_cost_r {
+    width: 30px;
+    text-align: center;
+    font-size:18px;
+    color: #DC1919;
+    font-family:verdana;
+  }
+
+  #gem_cost_g {
+    width: 30px;
+    text-align: center;
+    font-size:18px;
+    color: #30B170;
+    font-family:verdana;
+  }
+
+  #gem_cost_o {
+    width: 30px;
+    text-align: center;
+    font-size:18px;
+    color: #F97800;
+    font-family:verdana;
+  }
+
+  #gem_cost_p {
+    width: 30px;
+    text-align: center;
+    font-size:18px;
+    color: #AC55E9;
+    font-family:verdana;
+  }
+
+  card_name {
+    font-size:18px;
+    color:#ffffff;
+    font-family: 'Exo 2', sans-serif;
+    /* font-weight: bold; */
+  }
+
+  #card_quantity {
+    font-size:14px;
+    color:#ffffff;
+    font-family:arial;
+    font-style: italic;
+  }
+
+  #common {
+    width: 4px;
+    padding: 0px;
+    background-color: #6C583F;
+  }
+
+  #uncommon {
+    width: 4px;
+    padding: 0px;
+    background-color: #949695;
+  }
+
+  #rare {
+    width: 4px;
+    padding: 0px;
+    background-color: #BB9032;
+  }
+
+  #mythic {
+    width: 4px;
+    padding: 0px;
+    background-color:  #3F78C1;
+  }
+
+
+  /*
+  common = #B7A794
+  uncommon = #A9A9A9
+  rare = #F0D273
+  mythic = #8CC7E5, #66B8FB
+ */
+
+  th {
+    text-align: left;
+  }
+  </style>
+  </head>
+
+<body bgcolor="#000000">
+
+<center>
+
+<table border="0" cellpadding="0">
+<tbody>
+
+<tr>
+ <td id="mana_cost" colspan="2">Path</td>
+ <td id="pathpower" colspan="3">TURN OF SEASONS</td>
+</tr>
+
+<tr>
+ <td id="mana_cost" colspan="2">Power</td>
+ <td id="pathpower" colspan="3">SMITE</td>
+</tr>
+
+<tr>
+<td id="mana_cost">1</td>
+<td id="gem_cost_b">&bull;</td>
+<td id="norden"><card_name>CAIRNHENGE</card_name></td>
+<td id="card_quantity">x4</td>
+<td id="common">&nbsp;</td>
+</tr>
+
+<tr>
+<td id="mana_cost">4</td>
+<td id="gem_cost_b">&bull;&bull;</td>
+<td id="norden"><card_name>TAILROOT WURM</card_name></td>
+<td id="card_quantity">x3</td>
+<td id="uncommon">&nbsp;</td>
+</tr>
+
+<tr>
+<td id="mana_cost">5</td>
+<td id="gem_cost_b">&bull;&bull;</td>
+<td id="norden"><card_name>MAGNUS THORSSON</card_name></td>
+<td id="card_quantity">x1</td>
+<td id="mythic">&nbsp;</td>
+</tr>
+
+<tr>
+<td id="mana_cost">6</td>
+<td id="gem_cost_b">&bull;&bull;&bull;</td>
+<td id="norden"><card_name>CATACLYSM</card_name></td>
+<td id="card_quantity">x2</td>
+<td id="rare"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">1</td>
+<td id="gem_cost_y">&bull;</td>
+<td id="aztlan"><card_name>GOLDEN AXOLOTL</card_name></td>
+<td id="card_quantity">x4</td>
+<td id="common"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">3</td>
+<td id="gem_cost_y">&bull;&bull;</td>
+<td id="aztlan"><card_name>VICIOUS CYCLE</card_name></td>
+<td id="card_quantity">x3</td>
+<td id="uncommon"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">6</td>
+<td id="gem_cost_y">&bull;&bull;&bull;</td>
+<td id="aztlan"><card_name>HARVESTER</card_name></td>
+<td id="card_quantity">x2</td>
+<td id="rare"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">7</td>
+<td id="gem_cost_y">&bull;&bull;&bull;</td>
+<td id="aztlan"><card_name>SAPO, THE DEVOURER</card_name></td>
+<td id="card_quantity">x1</td>
+<td id="mythic"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">1</td>
+<td id="gem_cost_r">&bull;</td>
+<td id="orboros"><card_name>ORPHEUM OF HORRORS</card_name></td>
+<td id="card_quantity">x3</td>
+<td id="uncommon"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">3</td>
+<td id="gem_cost_r">&bull;&bull;</td>
+<td id="orboros"><card_name>IRONBELLY WYVERN</card_name></td>
+<td id="card_quantity">x4</td>
+<td id="common"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">3</td>
+<td id="gem_cost_r">&bull;&bull;&bull;</td>
+<td id="orboros"><card_name>SEA LORD'S TRIDENT</card_name></td>
+<td id="card_quantity">x1</td>
+<td id="mythic"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">4</td>
+<td id="gem_cost_r">&bull;&bull;</td>
+<td id="orboros"><card_name>WINGS OF ABBADON</card_name></td>
+<td id="card_quantity">x2</td>
+<td id="rare"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">2</td>
+<td id="gem_cost_g">&bull;</td>
+<td id="dreni"><card_name>GALLOWS BOY</card_name></td>
+<td id="card_quantity">x4</td>
+<td id="common"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">2</td>
+<td id="gem_cost_g">&bull;</td>
+<td id="dreni"><card_name>SPELLFLUX CAULDRON</card_name></td>
+<td id="card_quantity">x2</td>
+<td id="rare"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">4</td>
+<td id="gem_cost_g">&bull;&bull;</td>
+<td id="dreni"><card_name>FOCUSSED FRENZY</card_name></td>
+<td id="card_quantity">x3</td>
+<td id="uncommon"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">7</td>
+<td id="gem_cost_g">&bull;&bull;&bull;</td>
+<td id="dreni"><card_name>CHORT STAG</card_name></td>
+<td id="card_quantity">x1</td>
+<td id="mythic"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">3</td>
+<td id="gem_cost_o">&bull;</td>
+<td id="parsa"><card_name>HALCYON DECREE</card_name></td>
+<td id="card_quantity">x4</td>
+<td id="common"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">4</td>
+<td id="gem_cost_o">&bull;</td>
+<td id="parsa"><card_name>PARSA DIVINITY CANNON</card_name></td>
+<td id="card_quantity">x3</td>
+<td id="uncommon"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">4</td>
+<td id="gem_cost_o">&bull;&bull;</td>
+<td id="parsa"><card_name>RAZIEL, KEEPER OF SECRETS</card_name></td>
+<td id="card_quantity">x1</td>
+<td id="mythic"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">4</td>
+<td id="gem_cost_o">&bull;&bull;</td>
+<td id="parsa"><card_name>XERXIAN RECRUITER</card_name></td>
+<td id="card_quantity">x2</td>
+<td id="rare"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">4</td>
+<td id="gem_cost_p">&bull;</td>
+<td id="triusan"><card_name>SHINOBI OF WIND</card_name></td>
+<td id="card_quantity">x4</td>
+<td id="common"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">4</td>
+<td id="gem_cost_p">&bull;&bull;</td>
+<td id="triusan"><card_name>THRIVING SHADE</card_name></td>
+<td id="card_quantity">x3</td>
+<td id="uncommon"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">7</td>
+<td id="gem_cost_p">&bull;&bull;</td>
+<td id="triusan"><card_name>BAKU BOOGEYMAN</card_name></td>
+<td id="card_quantity">x2</td>
+<td id="rare"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">7</td>
+<td id="gem_cost_p">&bull;&bull;&bull;</td>
+<td id="triusan"><card_name>DAIGOJU SUPREME</card_name></td>
+<td id="card_quantity">x1</td>
+<td id="mythic"></td>
+</tr>
+
+<tr>
+<td id="mana_cost">3</td>
+<td id="gem_cost_b">&bull;<span style="color: #CFA445;">&bull;</span></td>
+<td id="norden"><card_name>EIRSDOTTIR</card_name></td>
+<td id="card_quantity">x3</td>
+<td id="common">&nbsp;</td>
+</tr>
+
+<tr>
+<td id="mana_cost">2</td>
+<td id="gem_cost_b">&bull;<span style="color: #AB281E;">&bull;</span></td>
+<td id="orboros"><card_name>FIRE EATER</card_name></td>
+<td id="card_quantity">x3</td>
+<td id="common">&nbsp;</td>
+</tr>
+
+
+</tbody>
+</table>
+
+<br><br>
+
+</center>
+
+</body>
