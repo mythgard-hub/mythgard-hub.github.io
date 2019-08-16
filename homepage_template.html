@@ -1,0 +1,520 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+<link href="https://fonts.googleapis.com/css?family=Exo+2:300,300i,400,400i,500,500i,600,6001,700,700i&display=swap" rel="stylesheet">
+
+<style>
+
+  /* Adds image to background */
+  #background {
+    position: fixed;
+    width: 1780px;
+    z-index: -1;
+    top:  0px;
+    left: -250px;
+    margin: 0px auto;
+  }
+
+  /* Gloabal styles for page body */
+  body {
+    background-color: #11222A;
+    font-family: 'Exo 2', sans-serif;
+    color: #ffffff;
+  }
+
+  hr.ograd {
+      margin-top: 10px;
+      margin-bottom: 12px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, #11222A, #F1810B, #11222A);
+  }
+
+  hr.bgrad {
+      margin-top: 10px;
+      margin-bottom: 12px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      border: 0;
+      height: .5px;
+      background-image: linear-gradient(to right, #1C2D35, #4EB8E7, #4EB8E7);
+  }
+
+  #label_center {
+    font-size:1.2em;
+    font-weight: 700;
+    color: #ffffff;
+    font-style: italic;
+    text-align: center;
+  }
+
+  #more_link {
+    font-size:.9em;
+    margin-top: -7px;
+    margin-right: 20px;
+    font-weight: 400;
+    color: #458A9E;
+    font-style: italic;
+    text-align: right;
+  }
+
+
+  /* Definition for home page panel */
+  #panel {
+    width: 260px;
+    background-color:  #1C2D35;
+    border-style: solid;
+    border-color: #4EB8E7;
+    border-width: .5px;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 9px;
+    padding-left: 12px;
+    /* padding:12px; */
+    margin: 0 auto;
+    margin-bottom: 10px;
+    overflow-wrap: break-word;
+    /* opacity: 0.5; */
+  }
+
+  /* Styles for panels */
+
+  #list_title {
+    font-size: 1.1em;
+    font-weight: 700;
+    color:#F1810B;
+    line-height: 1;
+  }
+
+  #byline {
+    width: 236px;
+    font-size: .9em;
+    font-weight: 300;
+    margin-top: .1em;
+  }
+
+
+  #article_author {
+    font-weight: 600;
+    color:#F1810B;
+  }
+
+  #ago_time {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  #article_description {
+    font-size: .9em;
+    margin-top: -.7em;
+    font-weight: 300;
+    /* margin-bottom: 5em; */
+  }
+
+  #faction_icon {
+    margin: 0px 2px 2px 0px;
+    width: 15px;
+    padding: 2px;
+  }
+
+  #deck_info {
+    /* border-style: solid;
+    border-color: white; */
+    margin-top: .4em;
+  }
+
+  #factions {
+    /* border-style: solid;
+    border-color: blue; */
+    width: 130px;
+    float: left;
+    font-weight: 600;
+    color: #4EB8E7;
+  }
+
+  #essence {
+    /* border-style: solid;
+    border-color: green; */
+    float: left;
+    margin-left: 1em;
+    /* margin-right: auto; */
+    text-align: center;
+    width: 65px;
+    font-weight: 600;
+    color: #B4E185;
+  }
+
+  #upvotes {
+    /* border-style: solid;
+    border-color: red; */
+    /* width: 55px; */
+    float: leftt;
+    font-weight: 600;
+    margin-left: 2em;
+    text-align: right;
+    color: #4EB8E7;
+  }
+
+
+  img.uparrow {
+    margin-right: .1em;
+    width: 10px;
+  }
+
+  img.essence {
+    margin-right: .1em;
+    width: 10px;
+  }
+
+/* Column layout */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 960px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: .5px;
+	margin: 0 auto;
+}
+
+#header {
+  height: 100px;
+	color: white;
+}
+
+#column-left {
+	width: 320px;
+	float: left;
+}
+
+#column-center {
+	width: 320px;
+	float: left;
+}
+
+#column-right {
+	width: 320px;
+	float: left;
+}
+
+#footer {
+	clear: both;
+}
+
+</style>
+</head>
+
+<body>
+
+  <!-- <img id="background" src="images\homepage_template.png" /> -->
+
+
+  <div id="wrapper">
+
+  	<div id="header">&nbsp;</div>
+
+    <!-- RECENT ARTICLES COLUMN -->
+  	<div id="column-left">
+
+      <div id="label_center">
+        RECENT ARTICLES
+      </div>
+
+      <hr class="ograd">
+
+      <div id="panel">
+        <span id="list_title">Features of Mythgard: Taking a Closer Look</span>
+        <div id="byline">
+          by
+          <span id="article_author">erobert</span>
+          <span id="ago_time">4 hours ago</span>
+        </div>
+
+        <hr class="bgrad">
+
+        <div id="article_description">Taking a bit of a breather this week to highlight some of the exciting ...</div>
+      </div>
+
+      <div id="panel">
+        <span id="list_title">Should you play Orange-Purple midrange?</span>
+        <div id="byline">
+          by
+          <span id="article_author">noahc92</span>
+          <span id="ago_time">16 hours ago</span>
+        </div>
+        <br>
+        <div id="article_description">Today let's talk about a deck that I've been grinding away with on stream...</div>
+      </div>
+
+      <div id="panel">
+        <span id="list_title">Budget Deck Monday</span>
+        <div id="byline">
+          by
+          <span id="article_author">CaptainTeembro</span>
+          <span id="ago_time">1 day ago</span>
+        </div>
+        <br>
+        <div id="article_description">Hello ladies. Look at your man, now back to me, now back at your man...</div>
+      </div>
+
+      <div id="more_link">
+        &#9658; More
+      </div>
+
+
+    </div>
+
+    <!-- NEW DECKS COLUMN -->
+  	<div id="column-center">
+
+      <div id="label_center">
+        NEW DECKS
+      </div>
+
+      <hr class="ograd">
+
+
+      <!-- DECK PANEL       -->
+      <div id="panel">
+
+        <span id="list_title">Mono-Purple Night Market</span>
+
+        <div id="byline">by
+          <span id="article_author">erobert</span>
+          <span id="ago_time">1 hour ago</span>
+        </div>
+
+        <hr class="bgrad">
+
+
+        <div id="deck_info">
+
+          <div id="factions">
+          <img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0005_purple.png">
+          </div>
+
+          <div id="essence">
+            <img class="essence" src="images\essence.png">17,950
+          </div>
+
+          <div id="upvotes">
+            <img class="uparrow" src="images\uparrow.png">3
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- DECK PANEL       -->
+      <div id="panel">
+
+        <span id="list_title">Blue-Orange Deserts</span>
+
+        <div id="byline">by
+          <span id="article_author">noahc92</span>
+          <span id="ago_time">14 hours ago</span>
+        </div>
+
+        <hr class="bgrad">
+
+        <div id="deck_info">
+
+          <div id="factions">
+            <img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0000_blue.png"><img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0004_orange.png">          </div>
+
+          <div id="essence">
+            <img class="essence" src="images\essence.png">5,350
+          </div>
+
+          <div id="upvotes">
+            <img class="uparrow" src="images\uparrow.png">1
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- DECK PANEL       -->
+      <div id="panel">
+
+        <span id="list_title">Snake Recursion</span>
+
+        <div id="byline">by
+          <span id="article_author">Burn</span>
+          <span id="ago_time">1 hour ago</span>
+        </div>
+
+        <hr class="bgrad">
+
+
+        <div id="deck_info">
+
+          <div id="factions">
+            <img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0000_blue.png"><img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0001_yellow.png"><img src="images\Filter-Icons_0000s_0003s_0003_green.png" id="faction_icon">
+          </div>
+
+          <div id="essence">
+            <img class="essence" src="images\essence.png">10,119
+          </div>
+
+          <div id="upvotes">
+            <img class="uparrow" src="images\uparrow.png">2
+          </div>
+
+        </div>
+
+      </div>
+
+            <div id="more_link">
+              &#9658; More
+            </div>
+
+
+    </div>
+
+    <!-- TOP DECKS COLUMN -->
+  	<div id="column-right">
+
+      <div id="label_center">
+        TOP DECKS
+      </div>
+
+      <hr class="ograd">
+
+      <!-- DECK PANEL       -->
+      <div id="panel">
+
+        <span id="list_title">Baby Back Ribs</span>
+
+        <div id="byline">by
+          <span id="article_author">CaptainTeembro</span>
+          <span id="ago_time">1 hour ago</span>
+        </div>
+
+        <hr class="bgrad">
+
+
+        <div id="deck_info">
+
+          <div id="factions">
+            <img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0000_blue.png"><img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0001_yellow.png"><img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0002_red.png"><img src="images\Filter-Icons_0000s_0003s_0003_green.png" id="faction_icon"><img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0004_orange.png"><img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0005_purple.png">
+          </div>
+
+          <div id="essence">
+            <img class="essence" src="images\essence.png">28,237
+          </div>
+
+          <div id="upvotes">
+            <img class="uparrow" src="images\uparrow.png">126
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- DECK PANEL       -->
+      <div id="panel">
+
+        <span id="list_title">Diseased Vulture Zoolock</span>
+
+        <div id="byline">by
+          <span id="article_author">noahc92</span>
+          <span id="ago_time">14 hours ago</span>
+        </div>
+
+        <hr class="bgrad">
+
+        <div id="deck_info">
+
+          <div id="factions">
+            <img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0000_blue.png"><img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0004_orange.png">          </div>
+
+          <div id="essence">
+            <img class="essence" src="images\essence.png">18,456
+          </div>
+
+          <div id="upvotes">
+            <img class="uparrow" src="images\uparrow.png">126
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- DECK PANEL       -->
+      <div id="panel">
+
+        <span id="list_title">6F Galaxy Brain This is the Longest Deck Title Everrrrrrrrr</span>
+
+        <div id="byline">by
+          <span id="article_author">xxXEdgeLordVorthosChaosMasterOvD000000mXxx</span>
+          <span id="ago_time">1 hour ago</span>
+        </div>
+
+        <hr class="bgrad">
+
+        <div id="deck_info">
+
+          <div id="factions">
+            <img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0000_blue.png"><img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0001_yellow.png"><img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0002_red.png"><img src="images\Filter-Icons_0000s_0003s_0003_green.png" id="faction_icon"><img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0004_orange.png"><img id="faction_icon" src="images\Filter-Icons_0000s_0003s_0005_purple.png">
+          </div>
+
+          <div id="essence">
+            <img class="essence" src="images\essence.png">99,999
+          </div>
+
+          <div id="upvotes">
+            <img class="uparrow" src="images\uparrow.png">999
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- <div id="panel">
+        <span id="list_title">Should you play Orange-Purple midrange?</span>
+        <div id="byline">
+          by
+          <span id="article_author">noahc92</span>
+          <span id="ago_time">16 hours ago</span>
+        </div>
+        <br>
+        <div id="article_description">Today let's talk about a deck that I've been grinding away with on stream...</div>
+      </div>
+
+      <div id="panel">
+        <span id="list_title">Budget Deck Monday</span>
+        <div id="byline">
+          by
+          <span id="article_author">CaptainTeembro</span>
+          <span id="ago_time">1 day ago</span>
+        </div>
+        <br>
+        <div id="article_description">Hello ladies. Look at your man, now back to me, now back at your man...</div>
+      </div> -->
+
+      <div id="more_link">
+        &#9658; More
+      </div>
+
+    </div>
+
+  	<div id="footer">&nbsp;</div>
+
+  </div>
+
+</body>
+</html>
