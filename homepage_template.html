@@ -18,10 +18,39 @@
   }
 
   /* Gloabal styles for page body */
+
   body {
     background-color: #11222A;
     font-family: 'Exo 2', sans-serif;
     color: #ffffff;
+  }
+
+  #topnav {
+    height: 100px;
+  	color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.2em;
+  }
+
+  #buttons {
+    padding: 20px 0;
+    margin-top: 15px;
+    margin-left: 20px;
+    float: left;
+  }
+
+  hr.top {
+      margin-top: -20px;
+      margin-bottom: 12px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+      border: .5;
+      border-color: #F1810B;
+      height: 0px;
   }
 
   hr.ograd {
@@ -66,6 +95,7 @@
 
 
   /* Definition for home page panel */
+
   #panel {
     width: 260px;
     background-color:  #1C2D35;
@@ -190,7 +220,8 @@
 
 #header {
   height: 100px;
-	color: white;
+  /* border-style: solid;
+  border-color: #ffffff; */
 }
 
 #column-left {
@@ -219,10 +250,26 @@
 
   <!-- <img id="background" src="images\homepage_template.png" /> -->
 
-
   <div id="wrapper">
 
-  	<div id="header">&nbsp;</div>
+  	<div id="header">
+      <div id="topnav">
+
+          <img src="https://mythgardhub.s3-us-west-2.amazonaws.com/mgh/MGH_CrownLogo.png" style="width: 85px; float: left; margin-left: 25px; margin-top: 7px;">
+          <img src="https://mythgardhub.s3-us-west-2.amazonaws.com/mgh/MGH_wordmark.png" style="width: 200px; float: left; margin-top: 30px;">
+
+          <div id="buttons">
+            &#9658;CARDS &nbsp;&nbsp;&nbsp;&nbsp; &#9658;DECKS &nbsp;&nbsp;&nbsp;&nbsp; &#9658;DECK BUILDER &nbsp;&nbsp;&nbsp;&nbsp; &#9658;EVENTS &nbsp;&nbsp;&nbsp;&nbsp; &#9658;ARTICLES
+          </div>
+
+      </div>
+
+      <hr class="top">
+
+
+    </div>
+
+
 
     <!-- RECENT ARTICLES COLUMN -->
   	<div id="column-left">
@@ -488,28 +535,6 @@
       </div>
 
 
-      <!-- <div id="panel">
-        <span id="list_title">Should you play Orange-Purple midrange?</span>
-        <div id="byline">
-          by
-          <span id="article_author">noahc92</span>
-          <span id="ago_time">16 hours ago</span>
-        </div>
-        <br>
-        <div id="article_description">Today let's talk about a deck that I've been grinding away with on stream...</div>
-      </div>
-
-      <div id="panel">
-        <span id="list_title">Budget Deck Monday</span>
-        <div id="byline">
-          by
-          <span id="article_author">CaptainTeembro</span>
-          <span id="ago_time">1 day ago</span>
-        </div>
-        <br>
-        <div id="article_description">Hello ladies. Look at your man, now back to me, now back at your man...</div>
-      </div> -->
-
       <div id="more_link">
         &#9658; More
       </div>
@@ -519,6 +544,7 @@
   	<div id="footer">&nbsp;</div>
 
   </div>
+
 
 </body>
 </html>
