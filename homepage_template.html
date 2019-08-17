@@ -36,20 +36,43 @@
     color: #ffffff;
   }
 
+  a {
+      color: #F1810B;
+      text-decoration: none;
+  }
+
+  a.tn {
+      color: #FFFFFF;
+      text-decoration: none;
+  }
+
+  a:hover {
+      color:  #4EB8E7;
+  }
+
+  a.mb {
+      color: #4EB8E7;
+      text-decoration: none;
+  }
+
+  a.mb:hover {
+      color:  orange;
+  }
+
+
   #topnav {
     height: 100px;
   	color: white;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 1.2em;
   }
 
   #buttons {
     padding: 20px 0;
     margin-top: 15px;
-    margin-left: 20px;
+    margin-left: 40px;
     float: left;
   }
 
@@ -58,10 +81,11 @@
       margin-bottom: 12px;
       margin-left: auto;
       margin-right: auto;
+      height: 1px;
+      border: none;
+      color: #F1810B;
+      background-color: #F1810B;
       width: 90%;
-      border: .5;
-      border-color: #F1810B;
-      height: 0px;
   }
 
   hr.ograd {
@@ -95,12 +119,12 @@
   }
 
   #more_link {
-    font-size:.9em;
-    margin-top: -7px;
+    font-size:.7em;
+    margin-top: -5px;
     margin-right: 20px;
-    font-weight: 400;
-    color: #458A9E;
-    font-style: italic;
+    font-weight: 600;
+    /* color: #458A9E;
+    font-style: italic; */
     text-align: right;
   }
 
@@ -127,6 +151,7 @@
   /* Styles for panels */
 
   #list_title {
+    font-family: 'Exo 2', sans-serif;
     font-size: 1.1em;
     font-weight: 700;
     color:#F1810B;
@@ -295,13 +320,13 @@
           <img src="https://mythgardhub.s3-us-west-2.amazonaws.com/mgh/MGH_wordmark.png" style="width: 200px; float: left; margin-top: 30px;">
 
           <div id="buttons">
-            &#9658;CARDS &nbsp;&nbsp;&nbsp;&nbsp; &#9658;DECKS &nbsp;&nbsp;&nbsp;&nbsp; &#9658;DECK BUILDER &nbsp;&nbsp;&nbsp;&nbsp; &#9658;EVENTS &nbsp;&nbsp;&nbsp;&nbsp; &#9658;ARTICLES
+            <a class="tn" href="">&#9658; CARDS</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="tn" href="">&#9658; DECKS</a> &nbsp;&nbsp;&nbsp;&nbsp;  <a class="tn" href="">&#9658; DECK BUILDER</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="tn" href="">&#9658; EVENTS</a> &nbsp;&nbsp;&nbsp;&nbsp;<a class="tn" href="">&#9658; ARTICLES</a>
           </div>
 
       </div>
 
       <hr class="top">
-
+      <!-- <hr style="height:2px;border:none;color:#F1810B;background-color:#F1810B;width:90%" /> -->
 
     </div>
 
@@ -317,10 +342,10 @@
       <hr class="ograd">
 
       <div id="panel">
-        <span id="list_title">Features of Mythgard: Taking a Closer Look</span>
+        <span id="list_title"><a href="">Features of Mythgard: Taking a Closer Look</a></span>
         <div id="byline">
           by
-          <span id="article_author">erobert</span>
+          <span id="article_author"><a href="">erobert</a></span>
           <span id="ago_time">4 hours ago</span>
         </div>
 
@@ -330,10 +355,10 @@
       </div>
 
       <div id="panel">
-        <span id="list_title">Should you play Orange-Purple midrange?</span>
+        <span id="list_title"><a href="">Should you play Orange-Purple midrange?</a></span>
         <div id="byline">
           by
-          <span id="article_author">noahc92</span>
+          <span id="article_author"><a href="">noahc92</a></span>
           <span id="ago_time">16 hours ago</span>
         </div>
 
@@ -343,10 +368,10 @@
       </div>
 
       <div id="panel">
-        <span id="list_title">Budget Deck Monday</span>
+        <span id="list_title"><a href="">Budget Deck Monday</a></span>
         <div id="byline">
           by
-          <span id="article_author">CaptainTeembro</span>
+          <span id="article_author"><a href="">CaptainTeembro</a></span>
           <span id="ago_time">1 day ago</span>
         </div>
 
@@ -356,7 +381,7 @@
       </div>
 
       <div id="more_link">
-        &#9658; More
+        <a class="tn" href="">&#9658; VIEW MORE</a>
       </div>
 
 
@@ -375,10 +400,10 @@
       <!-- DECK PANEL       -->
       <div id="panel">
 
-        <span id="list_title">Mono-Purple Night Market</span>
 
+        <span id="list_title"><a href="">Mono-Purple Night Market</a></span>
         <div id="byline">by
-          <span id="article_author">erobert</span>
+          <span id="article_author"><a href="">erobert</a></span>
           <span id="ago_time">1 hour ago</span>
         </div>
 
@@ -407,10 +432,10 @@
       <!-- DECK PANEL       -->
       <div id="panel">
 
-        <span id="list_title">Blue-Orange Deserts</span>
+        <span id="list_title"><a href="">Blue-Orange Deserts</a></span>
 
         <div id="byline">by
-          <span id="article_author">noahc92</span>
+          <span id="article_author"><a href="">noahc92</a></span>
           <span id="ago_time">14 hours ago</span>
         </div>
 
@@ -436,10 +461,10 @@
       <!-- DECK PANEL       -->
       <div id="panel">
 
-        <span id="list_title">Snake Recursion</span>
+        <span id="list_title"><a href="">Snake Recursion</a></span>
 
         <div id="byline">by
-          <span id="article_author">Burn</span>
+          <span id="article_author"><a href="">Burn</a></span>
           <span id="ago_time">1 hour ago</span>
         </div>
 
@@ -465,7 +490,7 @@
       </div>
 
             <div id="more_link">
-              &#9658; More
+              <a class="tn" href="">&#9658; VIEW MORE </a>
             </div>
 
 
@@ -483,10 +508,10 @@
       <!-- DECK PANEL       -->
       <div id="panel">
 
-        <span id="list_title">Baby Back Ribs</span>
+        <span id="list_title"><a href="">Baby Back Ribs</a></span>
 
         <div id="byline">by
-          <span id="article_author">CaptainTeembro</span>
+          <span id="article_author"><a href="">CaptainTeembro</a></span>
           <span id="ago_time">1 hour ago</span>
         </div>
 
@@ -514,10 +539,10 @@
       <!-- DECK PANEL       -->
       <div id="panel">
 
-        <span id="list_title">Diseased Vulture Zoolock</span>
+        <span id="list_title"><a href="">Diseased Vulture Zoolock</a></span>
 
         <div id="byline">by
-          <span id="article_author">noahc92</span>
+          <span id="article_author"><a href="">noahc92</a></span>
           <span id="ago_time">14 hours ago</span>
         </div>
 
@@ -543,10 +568,10 @@
       <!-- DECK PANEL       -->
       <div id="panel">
 
-        <span id="list_title">6F Galaxy Brain This is the Longest Deck Title Everrrrrrrrr</span>
+        <span id="list_title"><a href="">6F Galaxy Brain This is the Longest Deck Title Everrrrrrrrr</a></span>
 
         <div id="byline">by
-          <span id="article_author">xxXEdgeLordVorthosChaosMasterOvD000000mXxx</span>
+          <span id="article_author"><a href="">xxXEdgeLordVorthosChaosMasterOvD000000mXxx</a></span>
           <span id="ago_time">1 hour ago</span>
         </div>
 
@@ -572,7 +597,7 @@
 
 
       <div id="more_link">
-        &#9658; More
+        <a class="tn" href="">&#9658; VIEW MORE</a>
       </div>
 
     </div>
@@ -580,18 +605,18 @@
   	<div id="footer">
       <div id="midbanner">
           &nbsp;
-          <hr style="border-color: orange; width: 100%; margin-top: 25px;">
+          <hr style="border-color: #F1810B; width: 100%; margin-top: 25px;">
           <img src="images\ImperfectCopy.png" style="float: left">
             <!-- <div id=midbanner -->
 
           <div id="midbanner_text">
 
-            Latest Patch Notes<br>
+            <a class="mb" href="">Latest Patch Notes<br>
             v0.15.4
 
           </div>
 
-          <hr style="border-color: orange; width: 100%">
+          <hr style="border-color: #F1810B; width: 100%">
       </div>
     </div>
 
