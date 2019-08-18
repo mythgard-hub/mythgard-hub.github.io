@@ -1,3 +1,14 @@
+/* <!-- <div style="margin: auto; width: 875px; border: .5px solid #73AD21; padding: 10px; text-align: center; height: 27.5px;">*</a></div> --> */
+
+
+/* Gloabal styles for page body */
+
+body {
+  background-color: #11222A;
+  font-family: 'Exo 2', sans-serif;
+  color: #ffffff;
+}
+
 /* Background Images */
 
 #background {
@@ -18,22 +29,15 @@
   margin: 0px auto;
 }
 
-/* Gloabal styles for page body */
-
-body {
-  background-color: #11222A;
-  font-family: 'Exo 2', sans-serif;
-  color: #ffffff;
-}
 
 /* Page structure */
 
 #frame_wrapper {
   width: 1040px;
-  border-style: solid;
-  border-color: #666;
+  /* border-style: solid;
+  border-color: #666; */
   border-width: .1px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 #body_wrapper {
@@ -41,40 +45,51 @@ body {
   width: 960px;
   border-left: .5px solid #F1810B;
   border-right: .5px solid #F1810B;
-	margin: 0 auto;
+	margin: auto;
   background-color: #11222A;
   height: 1000px;
-  z-index: -1;
 }
 
 #body_header {
-  height: 100px;
-  background-color: purple;
+  /* height: 125px; */
+  /* background-color: purple; */
+  margin: auto;
 }
 
 #column-left {
   width: 320px;
   float: left;
-  background-color: green;
+  /* background-color: green; */
 }
 
 #column-center {
   width: 320px;
-  height: 350;
+  /* height: 350; */
   float: left;
-  background-color: red;
+  /* background-color: red; */
 }
 
 #column-right {
   width: 320px;
   float: left;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 #footer {
   height: 100px;
   clear: both;
-  background-color: yellow;
+  /* background-color: yellow; */
+}
+
+/* Modules */
+
+#topnav_buttons {
+  margin-top: 36px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 1.12em;
+  float: left;
 }
 
 
@@ -110,34 +125,6 @@ a.mb:hover {
 }
 
 
-#topnav {
-  height: 100px;
-  color: white;
-  font-weight: 600;
-  font-size: 1.1em;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-#buttons {
-  padding: 20px 0;
-  margin-top: 15px;
-  margin-left: 35px;
-  float: left;
-}
-
-hr.top {
-    margin-top: -20px;
-    margin-bottom: 12px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 1px;
-    border: none;
-    color: #F1810B;
-    background-color: #F1810B;
-    width: 91%;
-}
-
 #section {
   /* height: 100px; */
   /* border-style: solid;
@@ -165,6 +152,19 @@ hr.top {
 }
 
 
+/* Horizontal Rules */
+
+hr.top {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    border: none;
+    color: #F1810B;
+    background-color: #F1810B;
+    width: 91%;
+}
 
 hr.ograd {
     margin-top: 10px;
@@ -188,7 +188,7 @@ hr.bgrad {
     background-image: linear-gradient(to right, #1C2D35, #4EB8E7, #4EB8E7);
 }
 
-#label_center {
+#column_label {
   font-size:1.2em;
   font-weight: 700;
   color: #ffffff;
@@ -318,7 +318,7 @@ img.essence {
 }
 
 #midbanner {
-  margin-top: 15px;
+  margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
   width: 900px;
