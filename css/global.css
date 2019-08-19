@@ -1,5 +1,149 @@
 /* <!-- <div style="margin: auto; width: 875px; border: .5px solid #73AD21; padding: 10px; text-align: center; height: 27.5px;">*</a></div> --> */
 
+td {
+  border: 0px;
+  padding: 10px;
+  background-color: #333333;
+  font-size:.8em;
+}
+
+#pathpower {
+  font-size:1em;
+  color:#ffffff;
+  font-family: 'Exo 2', sans-serif;
+  background-color: #333333;
+  text-align: left;
+  colspan="3";
+}
+
+#mana_cost {
+  background-color: #333333;
+  color:#ffffff;
+  font-family: verdana;
+}
+
+#gem_cost_b {
+  width: 30px;
+  text-align: center;
+  color:#4EB8E7;
+  font-family:verdana;
+}
+
+#norden {
+  background-color: #4EB8E7; text-align: left;
+  width: 300px;
+}
+
+#aztlan {
+  background-color: #E9E008; text-align: left;
+  width: 300px;
+}
+
+#orboros {
+  background-color: #DC1919; text-align: left;
+  width: 300px;
+}
+
+#dreni {
+  background-color: #30B170; text-align: left;
+  width: 300px;
+}
+
+#parsa {
+  background-color: #F97800; text-align: left;
+  width: 300px;
+}
+
+#triusan {
+  background-color: #AC55E9; text-align: left;
+  width: 300px;
+}
+
+#gem_cost_b {
+  width: 30px;
+  text-align: center;
+  color:#4EB8E7;
+  font-family:verdana;
+}
+
+#gem_cost_y {
+  width: 30px;
+  text-align: center;
+  color: #E9E008;
+  font-family:verdana;
+}
+
+#gem_cost_r {
+  width: 30px;
+  text-align: center;
+  color: #DC1919;
+  font-family:verdana;
+}
+
+#gem_cost_g {
+  width: 30px;
+  text-align: center;
+  color: #30B170;
+  font-family:verdana;
+}
+
+#gem_cost_o {
+  width: 30px;
+  text-align: center;
+  color: #F97800;
+  font-family:verdana;
+}
+
+#gem_cost_p {
+  width: 30px;
+  text-align: center;
+  color: #AC55E9;
+  font-family:verdana;
+}
+
+card_name {
+  font-size:1em;
+  color: #333333;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+}
+
+#card_quantity {
+  font-size:.7em;
+  color:#ffffff;
+  font-family:arial;
+  font-style: italic;
+}
+
+#common {
+  width: 4px;
+  padding: 0px;
+  background-color: #6C583F;
+}
+
+#uncommon {
+  width: 4px;
+  padding: 0px;
+  background-color: #949695;
+}
+
+#rare {
+  width: 4px;
+  padding: 0px;
+  background-color: #BB9032;
+}
+
+#mythic {
+  width: 4px;
+  padding: 0px;
+  background-color:  #3F78C1;
+}
+
+th {
+  text-align: left;
+}
+
+
 
 /* Gloabal styles for page body */
 
@@ -47,7 +191,7 @@ body {
   border-right: .5px solid #F1810B;
 	margin: auto;
   background-color: #11222A;
-  height: 1000px;
+  height: 2000px;
 }
 
 #body_header {
@@ -59,14 +203,14 @@ body {
 #column-left {
   width: 320px;
   float: left;
-  background-color: green;
+  /* background-color: green; */
 }
 
 #column-center {
   width: 320px;
   /* height: 350; */
   float: left;
-  background-color: red;
+  /* background-color: red; */
 }
 
 #column-library {
@@ -82,19 +226,19 @@ body {
   width: 325px;
   margin-right: 40px;
   float: left;
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 #column-right {
   width: 320px;
   float: left;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 #footer {
   height: 100px;
   clear: both;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 /* Modules */
@@ -323,12 +467,12 @@ hr.bgrad {
   font-style: italic;
   font-size: 1em;
   border-radius: 7px;
-  width: 100px;
   margin: 5px 5px 5px 5px;
 }
 
 .button1 {float: right;}
-.button2
+.button2 {width: 100px;}
+.button3 {width: 300px;}
 
 #deck_info {
   /* border-style: solid;
@@ -427,8 +571,3 @@ width: 900px;
 margin: 0 auto;
 border-left: .5px solid #FFFFFF;
 border-right: .5px solid #FFFFFF;
-
-/* margin-left: 35px; */
-background-color: purple;
-/* opacity: 0.5; */
-}
