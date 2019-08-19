@@ -1,5 +1,15 @@
 /* <!-- <div style="margin: auto; width: 875px; border: .5px solid #73AD21; padding: 10px; text-align: center; height: 27.5px;">*</a></div> --> */
 
+/* Decklist Table */
+
+#decklist_wrapper {
+  border: solid 1px #ffffff;
+  background-color: #333333;
+  border-radius: 7px;
+  margin-left: 20px;
+  width: 100%;
+}
+
 td {
   border: 0px;
   padding: 10px;
@@ -9,54 +19,50 @@ td {
 
 #pathpower {
   font-size:1em;
-  color:#ffffff;
-  font-family: 'Exo 2', sans-serif;
+  /* color:#ffffff; */
+  /* font-family: 'Exo 2', sans-serif; */
   background-color: #333333;
   text-align: left;
   colspan="3";
 }
 
 #mana_cost {
+  font-size: 1.1em;
   background-color: #333333;
   color:#ffffff;
-  font-family: verdana;
+  font-family: arial;
+  /* font-weight: bold; */
 }
 
 #gem_cost_b {
   width: 30px;
   text-align: center;
   color:#4EB8E7;
-  font-family:verdana;
+  font-family: verdana;
 }
 
 #norden {
   background-color: #4EB8E7; text-align: left;
-  width: 300px;
 }
 
 #aztlan {
   background-color: #E9E008; text-align: left;
-  width: 300px;
 }
 
 #orboros {
   background-color: #DC1919; text-align: left;
-  width: 300px;
 }
 
 #dreni {
   background-color: #30B170; text-align: left;
-  width: 300px;
 }
 
 #parsa {
   background-color: #F97800; text-align: left;
-  width: 300px;
 }
 
 #triusan {
   background-color: #AC55E9; text-align: left;
-  width: 300px;
 }
 
 #gem_cost_b {
@@ -144,7 +150,6 @@ th {
 }
 
 
-
 /* Gloabal styles for page body */
 
 body {
@@ -223,7 +228,8 @@ body {
 
 #column-decklist {
   /* width: 288px; */
-  width: 325px;
+  width: 324px;
+  border-left: solid 1px orange;
   margin-right: 40px;
   float: left;
   /* background-color: orange; */
@@ -234,6 +240,11 @@ body {
   float: left;
   /* background-color: blue; */
 }
+
+#decklist-wrapper {
+  border: solid 1px white;
+}
+
 
 #footer {
   height: 100px;
@@ -340,6 +351,21 @@ a.mb:hover {
     color:  orange;
 }
 
+a.mb {
+    color: #4EB8E7;
+    text-decoration: none;
+}
+
+a.creator {
+    color: orange;
+    text-decoration: none;
+}
+
+a.creator:hover {
+    color:  #4EB8E7;
+}
+
+
 /* Horizontal Rules */
 
 hr.top {
@@ -374,6 +400,18 @@ hr.bgrad {
     border: 0;
     height: .5px;
     background-image: linear-gradient(to right, #1C2D35, #4EB8E7, #4EB8E7);
+}
+
+hr.cbody {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1.5px;
+  border: none;
+  color: #458A9E;
+  background-color: #458A9E;
+  width: 100%;
 }
 
 
@@ -443,6 +481,26 @@ hr.bgrad {
   /* margin-bottom: 5em; */
 }
 
+table.dl {
+  background-color: #11222A;
+  width: 100%;
+}
+
+#decktitle {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+#deckcreator {
+  font-size: 1em;
+  font-weight: 400;
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom : 8px;
+}
+
 #faction_icon {
   margin: 0px 2px 2px 0px;
   width: 15px;
@@ -461,7 +519,7 @@ hr.bgrad {
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Exo 2', sans-serif;
+  /* font-family: 'Exo 2', sans-serif; */
   color: #ffffff;
   font-weight: 600;
   font-style: italic;
@@ -472,7 +530,16 @@ hr.bgrad {
 
 .button1 {float: right;}
 .button2 {width: 100px;}
-.button3 {width: 300px;}
+.button3 {width: 300px; margin-left: 28px;}
+
+#cardcount {
+  width: 300;
+  /* border: solid white 1px; */
+  margin-bottom: 7px;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: right;
+}
 
 #deck_info {
   /* border-style: solid;
@@ -552,12 +619,12 @@ padding: 0;
 }
 
 #wrapper {
-width: 960px;
-border-left: .5px solid #F1810B;
-border-right: .5px solid #F1810B;
-margin: 0 auto;
-background-color: #11222A;
-/* opacity: 0.5; */
+  width: 960px;
+  border-left: .5px solid #F1810B;
+  border-right: .5px solid #F1810B;
+  margin: 0 auto;
+  background-color: #11222A;
+  /* opacity: 0.5; */
 }
 
 #header {
