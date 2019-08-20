@@ -1,210 +1,5 @@
 /* <!-- <div style="margin: auto; width: 875px; border: .5px solid #73AD21; padding: 10px; text-align: center; height: 27.5px;">*</a></div> --> */
 
-/* Decklist Table */
-
-#decklist_wrapper {
-  border: solid 1px #ffffff;
-  background-color: #333333;
-  border-radius: 7px;
-  margin-left: 20px;
-  width: 100%;
-}
-
-table.decklist {
-  width: 100%;
-  background-color: #11222A;
-}
-
-table.decklist td {
-  border: 0px;
-  padding: 10px;
-  background-color: #333333;
-  font-size:.8em;
-}
-
-#pathpower {
-  font-size:1em;
-  /* color:#ffffff; */
-  /* font-family: 'Exo 2', sans-serif; */
-  background-color: #333333;
-  text-align: left;
-  colspan="3";
-  padding: 10px;
-}
-
-#mana_cost {
-  font-size: 1.1em;
-  background-color: #333333;
-  color:#ffffff;
-  font-family: arial;
-  /* font-weight: bold; */
-}
-
-/* #gem_cost_b {
-  width: 30px;
-  text-align: center;
-  color:#4EB8E7;
-  font-family: verdana;
-  background-color: #333333;
-} */
-
-#gem_cost_b {
-  width: 30px;
-  text-align: center;
-  color:#4EB8E7;
-  font-family:verdana;
-  background-color: #333333;
-}
-
-#gem_cost_y {
-  width: 30px;
-  text-align: center;
-  color: #E9E008;
-  font-family:verdana;
-  background-color: #333333;
-}
-
-#gem_cost_r {
-  width: 30px;
-  text-align: center;
-  color: #DC1919;
-  font-family:verdana;
-  background-color: #333333;
-}
-
-#gem_cost_g {
-  width: 30px;
-  text-align: center;
-  color: #30B170;
-  font-family:verdana;
-  background-color: #333333;
-  }
-
-#gem_cost_o {
-  width: 30px;
-  text-align: center;
-  color: #F97800;
-  font-family:verdana;
-}
-
-#gem_cost_p {
-  width: 30px;
-  text-align: center;
-  color: #AC55E9;
-  font-family:verdana;
-}
-
-
-#norden {
-  background-color: #4EB8E7; text-align: left;
-}
-
-#aztlan {
-  background-color: #E9E008; text-align: left;
-}
-
-#orboros {
-  background-color: #DC1919; text-align: left;
-}
-
-#dreni {
-  background-color: #30B170; text-align: left;
-}
-
-#parsa {
-  background-color: #F97800; text-align: left;
-}
-
-#harmony {
-  background-color: #AC55E9; text-align: left;
-}
-
-
-card_name {
-  font-size:1em;
-  color: #333333;
-  font-family: 'Exo 2', sans-serif;
-  font-weight: 700;
-}
-
-#card_quantity {
-  font-size:.7em;
-  color:#ffffff;
-  font-family:arial;
-  font-style: italic;
-}
-
-#common {
-  width: 4px;
-  padding: 0px;
-  background-color: #6C583F;
-}
-
-#uncommon {
-  width: 4px;
-  padding: 0px;
-  background-color: #949695;
-}
-
-#rare {
-  width: 4px;
-  padding: 0px;
-  background-color: #BB9032;
-}
-
-#mythic {
-  width: 4px;
-  padding: 0px;
-  background-color:  #3F78C1;
-}
-
-th {
-  text-align: left;
-}
-
-
-/* Table for Card Library */
-
-table.cardlibrary {
-  width: 100%;
-  border: solid 0px #666;
-  cellpadding: 0;
-  /* background-color: yellow; */
-}
-
-table.cardlibrary td {
-  width: 100%;
-  border: solid 0px #666;
-  cellpadding: 0;
-  margin-top: 7px;
-  /* background-color: yellow; */
-}
-
-#cardartcell {
-  width: 25%;
-  top-margin: 50px;
-  height: 185px;
-  /* background-color: yellow; */
-}
-
-#cardart {
-  width: 120px;
-  /* margin: auto; */
-}
-
-#pathart {
-  width: 160px;
-  /* margin: auto; */
-}
-
-#pathartcell {
-  width: 33%;
-  top-margin: 20px;
-  height: 135px;
-  /* background-color: yellow; */
-}
-
-
 /* Gloabal styles for page body */
 
 body {
@@ -299,10 +94,203 @@ body {
   border: solid 1px white;
 }
 
-
 #footer {
   height: 100px;
   clear: both;
+  /* background-color: yellow; */
+}
+
+/* Decklist Table */
+
+#decklist_wrapper {
+  border: solid 1px #ffffff;
+  background-color: #333333;
+  border-radius: 7px;
+  margin-left: 20px;
+  width: 100%;
+}
+
+table.decklist {
+  width: 100%;
+  background-color: #11222A;
+}
+
+table.decklist td {
+  border: 0px;
+  padding: 10px;
+  background-color: #333333;
+  font-size:.8em;
+}
+
+/* table.decklist th {
+  text-align: right;
+} */
+
+#pathpower {
+  font-size:1em;
+  /* color:#ffffff; */
+  /* font-family: 'Exo 2', sans-serif; */
+  background-color: #333333;
+  text-align: left;
+  colspan="3";
+  padding: 10px;
+}
+
+#mana_cost {
+  font-size: 1.1em;
+  background-color: #333333;
+  color:#ffffff;
+  font-family: arial;
+  /* font-weight: bold; */
+}
+
+#gem_cost_b {
+  width: 30px;
+  text-align: center;
+  color:#4EB8E7;
+  font-family:verdana;
+  background-color: #333333;
+}
+
+#gem_cost_y {
+  width: 30px;
+  text-align: center;
+  color: #E9E008;
+  font-family:verdana;
+  background-color: #333333;
+}
+
+#gem_cost_r {
+  width: 30px;
+  text-align: center;
+  color: #DC1919;
+  font-family:verdana;
+  background-color: #333333;
+}
+
+#gem_cost_g {
+  width: 30px;
+  text-align: center;
+  color: #30B170;
+  font-family:verdana;
+  background-color: #333333;
+  }
+
+#gem_cost_o {
+  width: 30px;
+  text-align: center;
+  color: #F97800;
+  font-family:verdana;
+}
+
+#gem_cost_p {
+  width: 30px;
+  text-align: center;
+  color: #AC55E9;
+  font-family:verdana;
+}
+
+#norden {
+  background-color: #4EB8E7; text-align: left;
+}
+
+#aztlan {
+  background-color: #E9E008; text-align: left;
+}
+
+#orboros {
+  background-color: #DC1919; text-align: left;
+}
+
+#dreni {
+  background-color: #30B170; text-align: left;
+}
+
+#parsa {
+  background-color: #F97800; text-align: left;
+}
+
+#harmony {
+  background-color: #AC55E9; text-align: left;
+}
+
+card_name {
+  font-size:1em;
+  color: #333333;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+}
+
+#card_quantity {
+  font-size:.7em;
+  color:#ffffff;
+  font-family:arial;
+  font-style: italic;
+}
+
+#common {
+  width: 4px;
+  padding: 0px;
+  background-color: #6C583F;
+}
+
+#uncommon {
+  width: 4px;
+  padding: 0px;
+  background-color: #949695;
+}
+
+#rare {
+  width: 4px;
+  padding: 0px;
+  background-color: #BB9032;
+}
+
+#mythic {
+  width: 4px;
+  padding: 0px;
+  background-color:  #3F78C1;
+}
+
+
+/* Table for Card Library */
+
+table.cardlibrary {
+  width: 100%;
+  border: solid 0px #666;
+  cellpadding: 0;
+  /* background-color: yellow; */
+}
+
+table.cardlibrary td {
+  width: 100%;
+  border: solid 0px #666;
+  cellpadding: 0;
+  margin-top: 7px;
+  /* background-color: yellow; */
+}
+
+#cardartcell {
+  width: 25%;
+  top-margin: 50px;
+  height: 185px;
+  /* background-color: yellow; */
+}
+
+#cardart {
+  width: 120px;
+  /* margin: auto; */
+}
+
+#pathart {
+  width: 160px;
+  /* margin: auto; */
+}
+
+#pathartcell {
+  width: 33%;
+  top-margin: 20px;
+  height: 135px;
   /* background-color: yellow; */
 }
 
