@@ -10,7 +10,12 @@
   width: 100%;
 }
 
-td {
+table.decklist {
+  width: 100%;
+  background-color: #11222A;
+}
+
+table.decklist td {
   border: 0px;
   padding: 10px;
   background-color: #333333;
@@ -24,6 +29,7 @@ td {
   background-color: #333333;
   text-align: left;
   colspan="3";
+  padding: 10px;
 }
 
 #mana_cost {
@@ -34,12 +40,60 @@ td {
   /* font-weight: bold; */
 }
 
-#gem_cost_b {
+/* #gem_cost_b {
   width: 30px;
   text-align: center;
   color:#4EB8E7;
   font-family: verdana;
+  background-color: #333333;
+} */
+
+#gem_cost_b {
+  width: 30px;
+  text-align: center;
+  color:#4EB8E7;
+  font-family:verdana;
+  background-color: #333333;
 }
+
+#gem_cost_y {
+  width: 30px;
+  text-align: center;
+  color: #E9E008;
+  font-family:verdana;
+  background-color: #333333;
+}
+
+#gem_cost_r {
+  width: 30px;
+  text-align: center;
+  color: #DC1919;
+  font-family:verdana;
+  background-color: #333333;
+}
+
+#gem_cost_g {
+  width: 30px;
+  text-align: center;
+  color: #30B170;
+  font-family:verdana;
+  background-color: #333333;
+  }
+
+#gem_cost_o {
+  width: 30px;
+  text-align: center;
+  color: #F97800;
+  font-family:verdana;
+}
+
+#gem_cost_p {
+  width: 30px;
+  text-align: center;
+  color: #AC55E9;
+  font-family:verdana;
+}
+
 
 #norden {
   background-color: #4EB8E7; text-align: left;
@@ -61,51 +115,10 @@ td {
   background-color: #F97800; text-align: left;
 }
 
-#triusan {
+#harmony {
   background-color: #AC55E9; text-align: left;
 }
 
-#gem_cost_b {
-  width: 30px;
-  text-align: center;
-  color:#4EB8E7;
-  font-family:verdana;
-}
-
-#gem_cost_y {
-  width: 30px;
-  text-align: center;
-  color: #E9E008;
-  font-family:verdana;
-}
-
-#gem_cost_r {
-  width: 30px;
-  text-align: center;
-  color: #DC1919;
-  font-family:verdana;
-}
-
-#gem_cost_g {
-  width: 30px;
-  text-align: center;
-  color: #30B170;
-  font-family:verdana;
-}
-
-#gem_cost_o {
-  width: 30px;
-  text-align: center;
-  color: #F97800;
-  font-family:verdana;
-}
-
-#gem_cost_p {
-  width: 30px;
-  text-align: center;
-  color: #AC55E9;
-  font-family:verdana;
-}
 
 card_name {
   font-size:1em;
@@ -150,6 +163,48 @@ th {
 }
 
 
+/* Table for Card Library */
+
+table.cardlibrary {
+  width: 100%;
+  border: solid 0px #666;
+  cellpadding: 0;
+  /* background-color: yellow; */
+}
+
+table.cardlibrary td {
+  width: 100%;
+  border: solid 0px #666;
+  cellpadding: 0;
+  margin-top: 7px;
+  /* background-color: yellow; */
+}
+
+#cardartcell {
+  width: 25%;
+  top-margin: 50px;
+  height: 185px;
+  /* background-color: yellow; */
+}
+
+#cardart {
+  width: 120px;
+  /* margin: auto; */
+}
+
+#pathart {
+  width: 160px;
+  /* margin: auto; */
+}
+
+#pathartcell {
+  width: 33%;
+  top-margin: 20px;
+  height: 135px;
+  /* background-color: yellow; */
+}
+
+
 /* Gloabal styles for page body */
 
 body {
@@ -177,7 +232,6 @@ body {
   left: -30px;
   margin: 0px auto;
 }
-
 
 /* Page structure */
 
@@ -311,6 +365,8 @@ input[type=text].a {
   background-color: #D1D1D1;
   border-radius: 7px;
   margin-top: 5px;
+  outline: none;
+  padding-left: 9px;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -336,7 +392,6 @@ a.selected {
     color: #4EB8E7;
     text-decoration: none;
 }
-
 
 a:hover {
     color:  #4EB8E7;
@@ -365,6 +420,29 @@ a.creator:hover {
     color:  #4EB8E7;
 }
 
+a.tabs {
+    color: #458A9E;
+}
+
+a.tabs:hover {
+    color: orange;
+}
+
+a.buttons {
+    color: #ffffff;
+}
+
+a.buttons:hover {
+    color: orange;
+}
+
+a.buttonst {
+    color: #333333;
+}
+
+a.buttonst:hover {
+    color: #4EB8E7;
+}
 
 /* Horizontal Rules */
 
@@ -403,15 +481,13 @@ hr.bgrad {
 }
 
 hr.cbody {
-  margin-top: 20px;
+  margin-top: -6.5px;
   margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
   height: 1.5px;
   border: none;
   color: #458A9E;
   background-color: #458A9E;
-  width: 100%;
+  width: 95%;
 }
 
 
@@ -515,22 +591,76 @@ table.dl {
 
 .button {
   background-color: #333333;
-  border: 1px solid #458A9E;
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  /* font-family: 'Exo 2', sans-serif; */
-  color: #ffffff;
-  font-weight: 600;
-  font-style: italic;
-  font-size: 1em;
+  font-family: 'Exo 2', sans-serif;
   border-radius: 7px;
   margin: 5px 5px 5px 5px;
 }
 
 .button1 {float: right;}
-.button2 {width: 100px;}
-.button3 {width: 300px; margin-left: 28px;}
+
+.button2 {
+  border: 1px solid #458A9E;
+  background-color: #333333;
+  color: #ffffff;
+  width: 100px;
+  margin-left: 44px;
+  font-style: italic;
+  font-weight: 600; f
+  font-size: 1em;}
+
+  .button2b {
+    border: 1px solid #458A9E;
+    background-color: orange;
+    color: blue;
+    width: 100px;
+    margin-left: 44px;
+    font-style: italic;
+    font-weight: 600; f
+    font-size: 1em;}
+
+.button3 {
+  border: 1px solid #458A9E;
+  background-color: #333333;
+  color: #ffffff;
+  width: 300px;
+  margin-left: 28px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1em;}
+
+.button4 {
+  padding: 5px;
+  border-top: 1px solid #458A9E;
+  border-right: 1px solid #458A9E;
+  border-left: 1px solid #458A9E;
+  border-bottom: 1px solid #11222A;
+  background-color: #11222A;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  color: #458A9E;
+  width: 100px;
+  height: 30px;
+  font-style: normal;
+}
+
+.button5 {
+  /* margin-left: 10px; */
+  padding: 5px;
+  border-top: 1px solid #458A9E;
+  border-right: 1px solid #458A9E;
+  border-left: 1px solid #458A9E;
+  border-bottom: 1px solid #458A9E;
+  background-color: #11222A;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  color: #458A9E;
+  width: 100px;
+  height: 30px;
+  font-style: normal;
+}
 
 #cardcount {
   width: 300;
