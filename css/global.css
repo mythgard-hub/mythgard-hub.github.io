@@ -94,10 +94,256 @@ body {
   border: solid 1px white;
 }
 
+#cardsfilter-wrapper {
+  width: 28%;
+  height: 1000px;
+  float: left;
+  padding: 30px;
+  border: solid ipx white;
+  /* background-color: purple; */
+}
+
 #footer {
   height: 100px;
   clear: both;
   /* background-color: yellow; */
+}
+
+/* MODULES============================= */
+
+#topnav_buttons {
+  margin-top: 36px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 1.12em;
+  float: left;
+}
+
+#section {
+  /* height: 100px; */
+  /* border-style: solid;
+  border-color: #4EB8E7; */
+  width: 916px;
+  color: white;
+  font-weight: 600;
+  margin-top: -10px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section_title {
+  font-size: 2em;
+  color: #4EB8E7;
+  margin-top: -58px;
+  text-align: right;
+  margin-right: 35px;
+  /* vertical-align: middle; */
+  font-weight: 700;
+  /* background-color: white; */
+}
+
+#column_label {
+  font-size:1.2em;
+  font-weight: 700;
+  color: #ffffff;
+  font-style: italic;
+  text-align: center;
+}
+
+#cslabel {
+  font-size: 1em;
+  font-weight: 600;
+  color: #ffffff;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#midbanner {
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  text-align: right;
+  vertical-align: middle;
+  /* background-color: white; */
+}
+
+#midbanner_text {
+  font-size: 2em;
+  color: #4EB8E7;
+  margin-top: 25px;
+  text-align: right;
+  margin-right: 15px;
+  vertical-align: middle;
+  font-weight: 700;
+  /* background-color: white; */
+}
+
+/* Definition for home page panel */
+
+#panel {
+  width: 260px;
+  background-color:  #1C2D35;
+  border-style: solid;
+  border-color: #4EB8E7;
+  border-width: .5px;
+  padding-top: 6px;
+  padding-right: 12px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  /* padding:12px; */
+  margin: 0 auto;
+  margin-bottom: 10px;
+  overflow-wrap: break-word;
+  /* opacity: 0.5; */
+}
+
+/* Styles for panels */
+
+#list_title {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.1em;
+  font-weight: 700;
+  color:#F1810B;
+  line-height: 1;
+}
+
+#byline {
+  width: 236px;
+  font-size: .9em;
+  font-weight: 300;
+  margin-top: .1em;
+}
+
+
+#article_author {
+  font-weight: 600;
+  color:#F1810B;
+}
+
+#ago_time {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#article_description {
+  font-size: .9em;
+  margin-top: 0em;
+  font-weight: 300;
+  /* margin-bottom: 5em; */
+}
+
+/* table.dl {
+  background-color: #11222A;
+  width: 100%;
+} */
+
+#decktitle {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+#deckcreator {
+  font-size: 1em;
+  font-weight: 400;
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom : 8px;
+}
+
+img.faction_icon {
+  margin: 0px 2px 2px 0px;
+  width: 40px;
+  padding: 10px;
+  opacity: 0.7;
+}
+
+img.faction_icon:hover {
+  opacity: 1;
+  -webkit-filter: drop-shadow(0px 0px 3px rgba(241,129,11,0.7));
+}
+
+
+/* #faction_icon.db {
+  margin: 0px 2px 2px 0px;
+  width: 40px;
+  padding: 10px;
+} */
+
+#cardcount {
+  width: 300;
+  /* border: solid white 1px; */
+  margin-bottom: 7px;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: right;
+}
+
+#deck_info {
+  /* border-style: solid;
+  border-color: white; */
+  margin-top: .4em;
+}
+
+#factions {
+  /* border-style: solid;
+  border-color: blue; */
+  width: 130px;
+  float: left;
+  font-weight: 600;
+  color: #4EB8E7;
+}
+
+#essence {
+  /* border-style: solid;
+  border-color: green; */
+  float: left;
+  margin-left: 1em;
+  /* margin-right: auto; */
+  text-align: center;
+  width: 65px;
+  font-weight: 600;
+  color: #B4E185;
+}
+
+#upvotes {
+  /* border-style: solid;
+  border-color: red; */
+  /* width: 55px; */
+  float: leftt;
+  font-weight: 600;
+  margin-left: 2em;
+  text-align: right;
+  color: #4EB8E7;
+}
+
+/* IMAGES ============================== */
+
+img.cost {
+  width: 30px;
+  margin: 7px;
+  opacity: 0.7;
+}
+
+img.cost:hover {
+  opacity: 1;
+  -webkit-filter: drop-shadow(0px 0px 3px rgba(241,129,11,0.5));
+}
+
+img.uparrow {
+  margin-right: .1em;
+  width: 10px;
+}
+
+img.essence {
+  margin-right: .1em;
+  width: 10px;
 }
 
 /* Decklist Table */
@@ -294,76 +540,6 @@ table.cardlibrary td {
   /* background-color: yellow; */
 }
 
-/* Modules */
-
-#topnav_buttons {
-  margin-top: 36px;
-  margin-bottom: 20px;
-  margin-left: 30px;
-  font-weight: 700;
-  font-size: 1.12em;
-  float: left;
-}
-
-#section {
-  /* height: 100px; */
-  /* border-style: solid;
-  border-color: #4EB8E7; */
-  width: 916px;
-  color: white;
-  font-weight: 600;
-  margin-top: -10px;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#section_title {
-  font-size: 2em;
-  color: #4EB8E7;
-  margin-top: -58px;
-  text-align: right;
-  margin-right: 35px;
-  /* vertical-align: middle; */
-  font-weight: 700;
-  /* background-color: white; */
-}
-
-#column_label {
-  font-size:1.2em;
-  font-weight: 700;
-  color: #ffffff;
-  font-style: italic;
-  text-align: center;
-}
-
-#cslabel {
-  font-size: 1em;
-  font-weight: 600;
-  color: #ffffff;
-  font-style: italic;
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-input[type=text].a {
-  width: 350px;
-  height: 30px;
-  border: 1px solid #458A9E;
-  background-color: #D1D1D1;
-  border-radius: 7px;
-  margin-top: 5px;
-  outline: none;
-  padding-left: 9px;
-}
-
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #458A9E;
-  opacity: 1; /* Firefox */
-  font-style: italic;
-  font-family: 'Exo 2', sans-serif;
-}
-
 /* Link and hover styles */
 
 a {
@@ -432,53 +608,6 @@ a.buttonst:hover {
     color: #4EB8E7;
 }
 
-/* Horizontal Rules */
-
-hr.top {
-    margin-top: 0px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 1px;
-    border: none;
-    color: #F1810B;
-    background-color: #F1810B;
-    width: 91%;
-}
-
-hr.ograd {
-    margin-top: 10px;
-    margin-bottom: 12px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, #11222A, #F1810B, #11222A);
-}
-
-hr.bgrad {
-    margin-top: 10px;
-    margin-bottom: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    border: 0;
-    height: .5px;
-    background-image: linear-gradient(to right, #1C2D35, #4EB8E7, #4EB8E7);
-}
-
-hr.cbody {
-  margin-top: -6.5px;
-  margin-bottom: 10px;
-  height: 1.5px;
-  border: none;
-  color: #458A9E;
-  background-color: #458A9E;
-  width: 95%;
-}
-
-
 #more_link {
   font-size:.7em;
   margin-top: -5px;
@@ -490,91 +619,25 @@ hr.cbody {
 }
 
 
-/* Definition for home page panel */
 
-#panel {
-  width: 260px;
-  background-color:  #1C2D35;
-  border-style: solid;
-  border-color: #4EB8E7;
-  border-width: .5px;
-  padding-top: 6px;
-  padding-right: 12px;
-  padding-bottom: 9px;
-  padding-left: 12px;
-  /* padding:12px; */
-  margin: 0 auto;
-  margin-bottom: 10px;
-  overflow-wrap: break-word;
-  /* opacity: 0.5; */
-}
+/* Inputs and Buttons */
 
-/* Styles for panels */
-
-#list_title {
-  font-family: 'Exo 2', sans-serif;
-  font-size: 1.1em;
-  font-weight: 700;
-  color:#F1810B;
-  line-height: 1;
-}
-
-#byline {
-  width: 236px;
-  font-size: .9em;
-  font-weight: 300;
-  margin-top: .1em;
-}
-
-
-#article_author {
-  font-weight: 600;
-  color:#F1810B;
-}
-
-#ago_time {
-  font-family: 'Exo 2', sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-#article_description {
-  font-size: .9em;
-  margin-top: 0em;
-  font-weight: 300;
-  /* margin-bottom: 5em; */
-}
-
-table.dl {
-  background-color: #11222A;
-  width: 100%;
-}
-
-#decktitle {
-  font-size: 1.2em;
-  font-weight: 600;
-  margin-left: 15px;
-  margin-top: 8px;
-}
-
-#deckcreator {
-  font-size: 1em;
-  font-weight: 400;
-  margin-left: 15px;
+input[type=text].a {
+  width: 350px;
+  height: 30px;
+  border: 1px solid #458A9E;
+  background-color: #D1D1D1;
+  border-radius: 7px;
   margin-top: 5px;
-  margin-bottom : 8px;
+  outline: none;
+  padding-left: 9px;
 }
 
-#faction_icon {
-  margin: 0px 2px 2px 0px;
-  width: 15px;
-  padding: 2px;
-}
-
-#faction_icon.db {
-  margin: 0px 2px 2px 0px;
-  width: 40px;
-  padding: 10px;
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #458A9E;
+  opacity: 1; /* Firefox */
+  font-style: italic;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .button {
@@ -650,86 +713,54 @@ table.dl {
   font-style: normal;
 }
 
-#cardcount {
-  width: 300;
-  /* border: solid white 1px; */
-  margin-bottom: 7px;
-  font-weight: 400;
-  font-size: 1em;
-  text-align: right;
+
+/* Horizontal Rules */
+
+hr.top {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    border: none;
+    color: #F1810B;
+    background-color: #F1810B;
+    width: 91%;
 }
 
-#deck_info {
-  /* border-style: solid;
-  border-color: white; */
-  margin-top: .4em;
+hr.ograd {
+    margin-top: 10px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #11222A, #F1810B, #11222A);
 }
 
-#factions {
-  /* border-style: solid;
-  border-color: blue; */
-  width: 130px;
-  float: left;
-  font-weight: 600;
-  color: #4EB8E7;
+hr.bgrad {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 0;
+    height: .5px;
+    background-image: linear-gradient(to right, #1C2D35, #4EB8E7, #4EB8E7);
 }
 
-#essence {
-  /* border-style: solid;
-  border-color: green; */
-  float: left;
-  margin-left: 1em;
-  /* margin-right: auto; */
-  text-align: center;
-  width: 65px;
-  font-weight: 600;
-  color: #B4E185;
+hr.cbody {
+  margin-top: -6.5px;
+  margin-bottom: 10px;
+  height: 1.5px;
+  border: none;
+  color: #458A9E;
+  background-color: #458A9E;
+  width: 95%;
 }
 
-#upvotes {
-  /* border-style: solid;
-  border-color: red; */
-  /* width: 55px; */
-  float: leftt;
-  font-weight: 600;
-  margin-left: 2em;
-  text-align: right;
-  color: #4EB8E7;
-}
-
-
-img.uparrow {
-  margin-right: .1em;
-  width: 10px;
-}
-
-img.essence {
-  margin-right: .1em;
-  width: 10px;
-}
-
-#midbanner {
-  margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 900px;
-  text-align: right;
-  vertical-align: middle;
-  /* background-color: white; */
-}
-
-#midbanner_text {
-  font-size: 2em;
-  color: #4EB8E7;
-  margin-top: 25px;
-  text-align: right;
-  margin-right: 15px;
-  vertical-align: middle;
-  font-weight: 700;
-  /* background-color: white; */
-}
-
-/* Column layout */
+/* Original Structure */
 
 * {
 margin: 0;
