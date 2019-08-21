@@ -322,6 +322,13 @@ body {
 
 /* IMAGES ============================== */
 
+
+img.faction_list {
+  margin: 0px 2px 2px 0px;
+  width: 15px;
+  padding: 2px;
+}
+
 img.faction_icon {
   margin: 0px 2px 2px 0px;
   width: 40px;
