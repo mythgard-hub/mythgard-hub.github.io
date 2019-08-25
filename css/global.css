@@ -468,7 +468,9 @@ table.decklist td {
 table.decksearch {
   width: 878px;
   margin-left: 40px;
+  margin-top: 325px;
   border-collapse: collapse;
+  padding: 20px;
   /* background-color: purple; */
 }
 
@@ -479,6 +481,10 @@ table.decksearch tr {
 
 table.decksearch tr:nth-child(even) {
   background-color: #1C2D35;
+}
+
+table.decksearch td {
+  padding: 10px;
 }
 
 #pathpower {
@@ -662,6 +668,35 @@ table.cardlibrary td {
   background-color: yellow; */
 }
 
+.decksearch_essence {
+  /* float: left; */
+  /* margin-left: 1em; */
+  text-align: center;
+  font-weight: 600;
+  width: 200px;
+  color: #B4E185;
+  top-margin: 50px;
+  /* background-color: purple; */
+}
+
+.decksearch_archetype {
+  /* float: left; */
+  /* margin-left: 1em; */
+  text-align: center;
+  font-weight: 500;
+  width: 200px;
+  /* color: #B4E185; */
+  top-margin: 50px;
+  /* background-color: green; */
+}
+
+.decksearch_date {
+  width: 150px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-left: 2em;
+  text-align: right;
+}
 
 /* Link and hover styles */
 
