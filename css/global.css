@@ -67,11 +67,46 @@ body {
   /* background-color: red; */
 }
 
+#column-right {
+  width: 320px;
+  float: left;
+  /* background-color: blue; */
+}
+
+#decks-column-left {
+  width: 292px;
+  float: left;
+  margin-left: 40px;
+  /* background-color: green; */
+}
+
+#deck-column-center {
+  width: 292px;
+  /* height: 350; */
+  float: left;
+  /* background-color: red; */
+}
+
+#decks-column-right {
+  width: 292px;
+  float: left;
+  /* background-color: blue; */
+}
+
 #column-library {
   /* width: 672px; */
   width: 555px;
   float: left;
   margin-left: 40px;
+  /* background-color: purple; */
+}
+
+#decksearch-header {
+  /* width: 672px; */
+  /* width: 878px; */
+  float: left;
+  margin-left: 41px;
+  /* margin: auto; */
   /* background-color: purple; */
 }
 
@@ -82,12 +117,6 @@ body {
   margin-right: 40px;
   float: left;
   /* background-color: orange; */
-}
-
-#column-right {
-  width: 320px;
-  float: left;
-  /* background-color: blue; */
 }
 
 #decklist-wrapper {
@@ -144,6 +173,20 @@ body {
   /* background-color: white; */
 }
 
+.results {
+  float: left;
+  font-size: 2em;
+  color: #4EB8E7;
+  /* margin-top: -58px; */
+  /* text-align: right; */
+  margin-right: 35px;
+  /* vertical-align: middle; */
+  font-weight: 700;
+  /* background-color: white; */
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
 #column_label {
   font-size:1.2em;
   font-weight: 700;
@@ -152,13 +195,34 @@ body {
   text-align: center;
 }
 
-#cslabel {
+/* #cslabel {
   font-size: 1em;
   font-weight: 600;
   color: #ffffff;
   font-style: italic;
-  text-align: center;
+  text-align: left;
+  margin-top: 20px;
   margin-bottom: 5px;
+} */
+
+.cslabel {
+  font-size: 1em;
+  font-weight: 600;
+  color: #ffffff;
+  font-style: italic;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.cslabel.first {
+  margin-top: -10px;
+}
+
+.faction_filters {
+  float: left;
+  margin-top: 10px;
+  /* border: solid 1px white; */
 }
 
 #midbanner {
@@ -257,12 +321,6 @@ body {
   margin-bottom : 8px;
 }
 
-/* #faction_icon.db {
-  margin: 0px 2px 2px 0px;
-  width: 40px;
-  padding: 10px;
-} */
-
 #cardcount {
   width: 300;
   /* border: solid white 1px; */
@@ -278,7 +336,7 @@ body {
   margin-top: .4em;
 }
 
-#factions {
+.listed_factions {
   /* border-style: solid;
   border-color: blue; */
   width: 130px;
@@ -310,12 +368,12 @@ body {
   color: #4EB8E7;
 }
 
-#card_type_label {
+.card_type_label {
   /* float: left; */
-  /* display: table-cell; */
+  display: table-cell;
   /* width: 250px; */
-  height: 30px;
-  /* padding: 10px; */
+  /* height: 80px;
+  padding: 10px; */
   /* border: 3px dashed #1c87c9; */
   vertical-align: middle;
 }
@@ -345,6 +403,7 @@ img.cost {
   width: 30px;
   margin: 7px;
   opacity: 0.7;
+  vertical-align: middle;
 }
 
 img.cost:hover {
@@ -354,7 +413,7 @@ img.cost:hover {
 
 img.card_type {
   /* float: left; */
-  vertical-align: baseline;
+  vertical-align: middle;
   height: 30px;
   margin: 7px;
   opacity: 0.7;
@@ -662,6 +721,10 @@ input[type=text].a {
   padding-left: 9px;
 }
 
+input[type=text].a.decks {
+  width: 250px;
+}
+
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #458A9E;
   opacity: 1; /* Firefox */
@@ -778,6 +841,80 @@ input[type=text].b {
    }
 
 
+.toggle {
+  /* float: left; */
+  display: inline-block;
+  /* vertical-align: middle; */
+  /* border: solid 1px white; */
+  color: green;
+  width: 200px;
+}
+
+   .switch {
+     position: relative;
+     display: inline-block;
+     vertical-align: middle;
+     /* float: left; */
+     width: 50px;
+     height: 24px;
+     margin: 0px 5px 0px 5px;
+   }
+
+   .switch input {
+     opacity: 0;
+     width: 0;
+     height: 0;
+   }
+
+   .slider {
+     position: absolute;
+     cursor: pointer;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: #ccc;
+     -webkit-transition: .4s;
+     transition: .4s;
+   }
+
+   .slider:before {
+     position: absolute;
+     content: "";
+     height: 16px;
+     width: 16px;
+     left: 4px;
+     bottom: 4px;
+     background-color: white;
+     -webkit-transition: .4s;
+     transition: .4s;
+   }
+
+   input:checked + .slider {
+     background-color: #B4E185;
+   }
+
+   input:focus + .slider {
+     box-shadow: 0 0 1px #333;
+   }
+
+   input:checked + .slider:before {
+     -webkit-transform: translateX(26px);
+     -ms-transform: translateX(26px);
+     transform: translateX(26px);
+   }
+
+   /* Rounded sliders */
+   .slider.round {
+     border-radius: 34px;
+   }
+
+   .slider.round:before {
+     border-radius: 50%;
+   }
+
+
+
 /* Horizontal Rules */
 
 hr.top {
@@ -790,6 +927,10 @@ hr.top {
     color: #F1810B;
     background-color: #F1810B;
     width: 91%;
+}
+
+hr.top.db {
+  color: green;
 }
 
 hr.ograd {
