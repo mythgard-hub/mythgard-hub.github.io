@@ -341,8 +341,13 @@ body {
   border-color: blue; */
   width: 130px;
   float: left;
-  font-weight: 600;
-  color: #4EB8E7;
+  /* font-weight: 600;
+  color: #4EB8E7; */
+}
+
+.factions_centered {
+  text-align: center;
+  /* border:1px solid #666; */
 }
 
 #essence {
@@ -459,6 +464,22 @@ table.decklist td {
 /* table.decklist th {
   text-align: right;
 } */
+
+table.decksearch {
+  width: 878px;
+  margin-left: 40px;
+  border-collapse: collapse;
+  /* background-color: purple; */
+}
+
+table.decksearch tr {
+  border-top: 1px solid orange;
+  /* background-color: purple; */
+}
+
+table.decksearch tr:nth-child(even) {
+  background-color: #1C2D35;
+}
 
 #pathpower {
   font-size:1em;
@@ -627,6 +648,20 @@ table.cardlibrary td {
   height: 135px;
   /* background-color: yellow; */
 }
+
+.decksearch_name {
+  width:300px;
+  top-margin: 50px;
+  height: 50px;
+  /* background-color: yellow; */
+}
+
+.decksearch_factions {
+  width: 260px;
+  /* border: 1px red solid;
+  background-color: yellow; */
+}
+
 
 /* Link and hover styles */
 
