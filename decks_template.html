@@ -99,18 +99,56 @@
         <input class="a decks" type="text" placeholder="  Search cards..." id="card-search" name="card-search" >
 
 
+        <!-- <div class="cslabel">ARCHETYPE</div>
+        <input class="a decks" type="text" placeholder="  Any" id="card-search" name="card-search" > -->
+
         <div class="cslabel">ARCHETYPE</div>
-        <input class="a decks" type="text" placeholder="  Any" id="card-search" name="card-search" >
+
+        <div class="cardsearch" style="border: solid 0px white; margin-top: 12px;">
+          <select>
+            <option>Any</option>
+            <option>Aggro</option>
+            <option>Aggro Midrange</option>
+            <option>Midrange</option>
+            <option>Control Midrange</option>
+            <option>Control</option>
+            <option>Conmbo</option>
+          </select>
+        </div>
 
       </div>
 
       <div id="decks-column-right">
 
+      <!-- <div class="cslabel">PATCH</div>
+      <input class="a decks" type="text" placeholder="  All patches" id="card-search" name="card-search" > -->
+
       <div class="cslabel">PATCH</div>
-      <input class="a decks" type="text" placeholder="  All patches" id="card-search" name="card-search" >
+
+      <div class="cardset" style="border: solid 0px white; margin-top: 12px;">
+        <select>
+          <option>Any</option>
+          <option>Previous Patch</option>
+          <option>Earliest Patch</option>
+          <option>Soul Patch</option>
+          <option>Patches the Pirate</option>
+        </select>
+      </div>
+
+
+        <!-- <div class="cslabel">EVENT DECKS</div>
+        <input class="a decks" type="text" placeholder="  Include event decks" id="card-search" name="card-search" > -->
 
         <div class="cslabel">EVENT DECKS</div>
-        <input class="a decks" type="text" placeholder="  Include event decks" id="card-search" name="card-search" >
+
+        <div class="cardset" style="border: solid 0px white; margin-top: 12px;">
+          <select>
+            <option>Include Event Decks</option>
+            <option>Only Event Decks</option>
+            <option>Exclude Event Decks</option>
+          </select>
+        </div>
+
 
       </div>
 
@@ -119,8 +157,8 @@
       </div>
 
       <div id="deckbuilder_filter_buttons" style="float: right; vertical-align: middle; margin-top: 30px ; margin-right: 40px;">
-        <button class="button button2"><a class="buttons" href="">APPLY</a></button>
-        <button class="button button2">CLEAR</button>
+        <button class="button button2" style="margin-right: -40px;"><a class="buttons" href="">APPLY</a></button>
+        <button class="button button2"><a class="buttons" href="">CLEAR</a></button>
       </div>
 
       &nbsp;
@@ -132,25 +170,25 @@
 
           <td class="decksearch_name">
             <span id="list_title">
-            <a href="">Mono-Purple Night Market</a></span>
+            <a class="decksearch" href="">Mono-Purple Night Market</a></span>
               <div id="byline">by
                   <span id="article_author"><a href="">erobert</a></span>
-                  <span id="ago_time">1 hour ago</span>
+                  <!-- <span id="ago_time">1 hour ago</span> -->
               </div>
           </td>
 
          <td class="decksearch_factions">
            <div class="factions_centered">
-             <img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0000_blue.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0001_yellow.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0002_red.png"><img src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0003_green.png" class="faction_list"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0004_orange.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0005_purple.png">
+             <img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0005_purple.png">
            </div>
-         </td>
-
-         <td class="decksearch_essence">
-             <img class="essence" src="https://cdn.mythgardhub.com/filters/essence.png">99,999
          </td>
 
          <td class="decksearch_archetype">
            Midrange
+         </td>
+
+         <td class="decksearch_essence">
+             <img class="essence" src="https://cdn.mythgardhub.com/filters/essence.png">17,590
          </td>
 
          <td class="decksearch_date">
@@ -162,26 +200,26 @@
 
       <tr>
 
-        <td class="decksearch_name"><span id="list_title"><a href="">Mono-Purple Night Market</a></span>
+        <td class="decksearch_name"><span id="list_title"><a class="decksearch" href="">Blue-Orange Deserts</a></span>
             <div id="byline">by
-                <span id="article_author"><a href="">erobert</a></span>
-                <span id="ago_time">1 hour ago</span>
+                <span id="article_author"><a href="">noac92</a></span>
+                <!-- <span id="ago_time">1 hour ago</span> -->
             </div>
         </td>
 
         <td class="decksearch_factions">
           <div class="factions_centered">
-          <img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0002_red.png"><img src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0003_green.png" class="faction_list"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0004_orange.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0005_purple.png">
+          <img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0000_blue.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0004_orange.png">
           </div>
         </td>
 
-        <td class="decksearch_essence">
-           <img class="essence" src="https://cdn.mythgardhub.com/filters/essence.png">99,999
+       <td class="decksearch_archetype">
+         Midrange
        </td>
 
-       <td class="decksearch_archetype">
-         Archetype
-       </td>
+       <td class="decksearch_essence">
+          <img class="essence" src="https://cdn.mythgardhub.com/filters/essence.png">5,350
+      </td>
 
        <td class="decksearch_date">
            25 AUG 2019<br />
@@ -194,25 +232,25 @@
 
       <td class="decksearch_name">
         <span id="list_title">
-        <a href="">Mono-Purple Night Market</a></span>
+        <a class="decksearch" href="">Snake Recursion</a></span>
           <div id="byline">by
-              <span id="article_author"><a href="">erobert</a></span>
-              <span id="ago_time">1 hour ago</span>
+              <span id="article_author"><a href="">Burn</a></span>
+              <!-- <span id="ago_time">1 hour ago</span> -->
           </div>
       </td>
 
      <td class="decksearch_factions">
        <div class="factions_centered">
-         <img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0000_blue.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0001_yellow.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0002_red.png"><img src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0003_green.png" class="faction_list"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0004_orange.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0005_purple.png">
+         <img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0000_blue.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0001_yellow.png"><img src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0003_green.png" class="faction_list">
        </div>
      </td>
 
-     <td class="decksearch_essence">
-         <img class="essence" src="https://cdn.mythgardhub.com/filters/essence.png">99,999
-     </td>
+      <td class="decksearch_archetype">
+        Combo
+      </td>
 
-     <td class="decksearch_archetype">
-       Midrange
+     <td class="decksearch_essence">
+         <img class="essence" src="https://cdn.mythgardhub.com/filters/essence.png">18,269
      </td>
 
      <td class="decksearch_date">
@@ -224,25 +262,25 @@
 
   <tr>
 
-    <td class="decksearch_name"><span id="list_title"><a href="">Mono-Purple Night Market</a></span>
+    <td class="decksearch_name"><span id="list_title"><a class="decksearch" href="">6F Galaxy Brain This is the Longest Deck Title Everrrrrrrrr</a></span>
         <div id="byline">by
-            <span id="article_author"><a href="">erobert</a></span>
-            <span id="ago_time">1 hour ago</span>
+            <span id="article_author"><a href="">xxXEdgeLordVorthosChaosMasterOvD000000mXxx</a></span>
+            <!-- <span id="ago_time">1 hour ago</span> -->
         </div>
     </td>
 
     <td class="decksearch_factions">
       <div class="factions_centered">
-      <img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0002_red.png"><img src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0003_green.png" class="faction_list"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0004_orange.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0005_purple.png">
+      <img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0000_blue.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0001_yellow.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0002_red.png"><img src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0003_green.png" class="faction_list"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0004_orange.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0005_purple.png">
       </div>
     </td>
 
-    <td class="decksearch_essence">
-       <img class="essence" src="https://cdn.mythgardhub.com/filters/essence.png">99,999
-   </td>
-
    <td class="decksearch_archetype">
      Archetype
+   </td>
+
+   <td class="decksearch_essence">
+      <img class="essence" src="https://cdn.mythgardhub.com/filters/essence.png">99,999
    </td>
 
    <td class="decksearch_date">
@@ -252,6 +290,35 @@
 
 </tr>
 
+<tr>
+
+  <td class="decksearch_name"><span id="list_title"><a class="decksearch" href="">Purple-Red Aggro</a></span>
+      <div id="byline">by
+          <span id="article_author"><a href="">noahc92</a></span>
+          <!-- <span id="ago_time">1 hour ago</span> -->
+      </div>
+  </td>
+
+  <td class="decksearch_factions">
+    <div class="factions_centered">
+    <img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0002_red.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0005_purple.png">
+    </div>
+  </td>
+
+ <td class="decksearch_archetype">
+   Aggro
+ </td>
+
+ <td class="decksearch_essence">
+    <img class="essence" src="https://cdn.mythgardhub.com/filters/essence.png">4,550
+ </td>
+
+ <td class="decksearch_date">
+     25 AUG 2019<br />
+     v0.15.5
+ </td>
+
+</tr>
 
       </tbody>
       </table>

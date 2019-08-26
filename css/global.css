@@ -301,10 +301,10 @@ body {
   /* margin-bottom: 5em; */
 }
 
-/* table.dl {
+table.dl {
   background-color: #11222A;
   width: 100%;
-} */
+}
 
 #decktitle {
   font-size: 1.2em;
@@ -471,6 +471,8 @@ table.decksearch {
   margin-top: 325px;
   border-collapse: collapse;
   padding: 20px;
+  overflow-wrap: break-word;
+
   /* background-color: purple; */
 }
 
@@ -693,7 +695,7 @@ table.cardlibrary td {
 .decksearch_date {
   width: 150px;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 500;
   margin-left: 30px;
   text-align: right;
   font-size: .8em
@@ -765,6 +767,16 @@ a.buttonst {
 
 a.buttonst:hover {
     color: #4EB8E7;
+}
+
+a.decksearch {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.decksearch:hover {
+    color: #4EB8E7;
+    text-decoration: none;
 }
 
 #more_link {
@@ -911,6 +923,23 @@ input[type=text].b {
    font-family: 'Exo 2', sans-serif;
    }
 
+   .cardsearch select {
+      background-color: #D1D1D1;
+      width: 260px;
+      height: 30px;
+      padding: 5px;
+      /* font-size: 16px; */
+      line-height: 1;
+      border: 1px solid #458A9E;
+      border-radius: 7px;
+      /* -webkit-appearance: none; */
+      outline: none;
+      color: #458A9E;
+      opacity: 1; /* Firefox */
+      font-style: italic;
+      font-family: 'Exo 2', sans-serif;
+      }
+
 
 .toggle {
   /* float: left; */
@@ -983,8 +1012,6 @@ input[type=text].b {
    .slider.round:before {
      border-radius: 50%;
    }
-
-
 
 /* Horizontal Rules */
 
