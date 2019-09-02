@@ -138,7 +138,51 @@ body {
   /* background-color: yellow; */
 }
 
-/* MODULES============================= */
+/* MODULES========================================================== */
+
+/* UPPER BAND FOR LOGIN/CONTACT ============================= */
+
+.upper {
+  height: 26px;
+  background-color: #F1810B;
+  /* font-weight: 600; */
+  /* font-size: .8em; */
+  color: #11222A;
+  /* padding-top: 7px; */
+}
+
+.upper.left {
+  float: left;
+  margin-left: 5%;
+  border-bottom-left-radius: 15px;
+  padding-left: 25px;
+}
+
+.upper.right {
+    float: right;
+    margin-right: 5%;
+    border-bottom-right-radius: 15px;
+    padding-right: 25px;
+}
+
+.upper_center {
+    overflow: hidden;
+    height: 26px;
+    background-color: #F1810B;
+}
+
+a.upper {
+  font-size: .8em;
+  font-weight: 600;
+  padding-top: 7px;
+}
+
+a.upper:hover {
+  color: #ffffff;
+}
+
+
+/* TOP NAV ============================= */
 
 #topnav_buttons {
   margin-top: 36px;
@@ -149,10 +193,9 @@ body {
   float: left;
 }
 
+/* SECTION HEADER ============================= */
+
 #section {
-  /* height: 100px; */
-  /* border-style: solid;
-  border-color: #4EB8E7; */
   width: 916px;
   color: white;
   font-weight: 600;
@@ -168,24 +211,10 @@ body {
   margin-top: -58px;
   text-align: right;
   margin-right: 35px;
-  /* vertical-align: middle; */
   font-weight: 700;
-  /* background-color: white; */
 }
 
-.results {
-  float: left;
-  font-size: 2em;
-  color: #4EB8E7;
-  /* margin-top: -58px; */
-  /* text-align: right; */
-  margin-right: 35px;
-  /* vertical-align: middle; */
-  font-weight: 700;
-  /* background-color: white; */
-  margin-left: 40px;
-  margin-top: 30px;
-}
+/* HOMEPAGE COLUMN TITLE LABEL ============================= */
 
 #column_label {
   font-size:1.2em;
@@ -195,35 +224,7 @@ body {
   text-align: center;
 }
 
-/* #cslabel {
-  font-size: 1em;
-  font-weight: 600;
-  color: #ffffff;
-  font-style: italic;
-  text-align: left;
-  margin-top: 20px;
-  margin-bottom: 5px;
-} */
-
-.cslabel {
-  font-size: 1em;
-  font-weight: 600;
-  color: #ffffff;
-  font-style: italic;
-  text-align: left;
-  margin-top: 20px;
-  margin-bottom: 5px;
-}
-
-.cslabel.first {
-  margin-top: -10px;
-}
-
-.faction_filters {
-  float: left;
-  margin-top: 10px;
-  /* border: solid 1px white; */
-}
+/* HOME PAGE MID-PAGE BANNER ============================= */
 
 #midbanner {
   margin-top: 0px;
@@ -245,6 +246,43 @@ body {
   font-weight: 700;
   /* background-color: white; */
 }
+
+
+/* DECKS PAGE SEARCH RESULTS BODY ============================= */
+
+.results {
+  float: left;
+  font-size: 2em;
+  color: #4EB8E7;
+  margin-right: 35px;
+  font-weight: 700;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+/* CARD SEARCH INPUT LABELS ============================= */
+
+.cslabel {
+  font-size: 1em;
+  font-weight: 600;
+  color: #ffffff;
+  font-style: italic;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.cslabel.first {
+  margin-top: -10px;
+}
+
+/* FACTION FILTERS MODULE FORMATTING ============================= */
+
+.faction_filters {
+  float: left;
+  margin-top: 10px;
+}
+
 
 /* Definition for home page panel */
 
