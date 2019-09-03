@@ -313,6 +313,25 @@ img.mid_banner {
   text-align: center;
 }
 
+/* Definition for home page panel */
+
+#panel {
+  width: 260px;
+  background-color:  #1C2D35;
+  border-style: solid;
+  border-color: #4EB8E7;
+  border-width: .5px;
+  padding-top: 6px;
+  padding-right: 12px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  /* padding:12px; */
+  margin: 0 auto;
+  margin-bottom: 10px;
+  overflow-wrap: break-word;
+  /* opacity: 0.5; */
+}
+
 
 /* HOME PAGE MID-PAGE BANNER ============================= */
 
@@ -378,26 +397,6 @@ img.mid_banner {
 .faction_filters {
   float: left;
   margin-top: 10px;
-}
-
-
-/* Definition for home page panel */
-
-#panel {
-  width: 260px;
-  background-color:  #1C2D35;
-  border-style: solid;
-  border-color: #4EB8E7;
-  border-width: .5px;
-  padding-top: 6px;
-  padding-right: 12px;
-  padding-bottom: 9px;
-  padding-left: 12px;
-  /* padding:12px; */
-  margin: 0 auto;
-  margin-bottom: 10px;
-  overflow-wrap: break-word;
-  /* opacity: 0.5; */
 }
 
 /* Styles for panels */
@@ -517,6 +516,65 @@ table.dl {
   /* border: 3px dashed #1c87c9; */
   vertical-align: middle;
 }
+
+/* CARD DETAILS PAGE ==================================== */
+
+#column_card_details {
+  /* width: 672px; */
+  width: 874px;
+  float: left;
+  margin-left: 40px;
+  /* background-color: red; */
+}
+
+#card_details_left {
+  width: 210px;
+  float: left;
+  padding: 30px;
+  /* background-color: purple; */
+}
+
+#card_details_right {
+  width: 210px;
+  float: left;
+  padding: 30px;
+  /* background-color: green; */
+}
+
+img.card_details {
+  width: 333px;
+  float: left;
+}
+
+img.card_faction {
+  width: 18px;
+  /* float: left; */
+  vertical-align: middle;
+}
+
+.card_detail_label {
+  font-size: 1em;
+  font-weight: 600;
+  color: #458A9E;
+  font-style: italic;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+
+.card_detail_name {
+  font-weight: 600;
+  font-size: 2em;
+  margin-bottom: 8px;
+}
+
+.card_detail_text {
+  font-weight: 600;
+  font-size: 2em;
+  margin-bottom: 8px;
+}
+
 
 /* IMAGES ============================== */
 
