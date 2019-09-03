@@ -45,7 +45,7 @@ body {
   border-right: .5px solid #F1810B;
 	margin: auto;
   background-color: #11222A;
-  height: 2000px;
+  height: 1000px;
 }
 
 #body_header {
@@ -138,6 +138,10 @@ body {
   /* background-color: yellow; */
 }
 
+.clear_columns {
+  clear: both;
+}
+
 /* MODULES========================================================== */
 
 /* UPPER BAND FOR LOGIN/CONTACT ============================= */
@@ -169,6 +173,44 @@ body {
     overflow: hidden;
     height: 26px;
     background-color: #F1810B;
+}
+
+.lower {
+  /* height: 100px; */
+  background-color: #1C2D35;
+  /* font-weight: 600; */
+  /* font-size: .8em; */
+  color: #11222A;
+}
+
+.lower.left {
+  float: left;
+  margin-left: 5%;
+  border-top-left-radius: 15px;
+  padding-left: 25px;
+}
+
+.lower.right {
+    float: right;
+    margin-right: 5%;
+    border-top-right-radius: 15px;
+    padding-right: 25px;
+}
+
+.lower_center {
+    color: #999999;
+    font-size: .7em;
+    margin: auto;
+    align: bottom;
+    text-align: middle;
+    padding: 24px;
+    overflow: hidden;
+    /* height: 26px; */
+    background-color: #1C2D35;
+    text-align: center;
+    width: 100%;
+    margin-top: 45px;
+    float: left;
 }
 
 a.upper {
@@ -234,13 +276,13 @@ img.badge {
 
 /* HOMEPAGE TOP BANNER IMAGE ============================= */
 
-#home_banner {
+/* #home_banner {
   width: 916px;
   margin-top: -10px;
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 img.home_banner {
   width: 874px;
@@ -253,6 +295,13 @@ img.home_banner {
   z-index: -1;
   object-fit: cover;
 }
+
+img.mid_banner {
+  z-index: -1;
+  float: left;
+  margin-bottom: 1px;
+}
+
 
 /* HOMEPAGE COLUMN TITLE LABEL ============================= */
 
@@ -267,25 +316,32 @@ img.home_banner {
 
 /* HOME PAGE MID-PAGE BANNER ============================= */
 
-#midbanner {
-  margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 900px;
-  text-align: right;
-  vertical-align: middle;
+.midbanner {
+  /* border: 1px red solid; */
+  clear: both;
+  margin-left: 30px;
+  margin-top: 15px;
+  float: left;
+  border-top: solid 1px orange;
+  border-bottom: solid 1px orange;
+  width: 874px;
+  /* text-align: right;
+  vertical-align: middle; */
+  /* clear: both;
+  float: left
+  height: 10px;
+  border: solid 1px green;
+  background-color: purple; */
   /* background-color: white; */
 }
 
 #midbanner_text {
-  font-size: 2em;
   color: #4EB8E7;
+  font-size: 2em;
+  font-weight: 700;
   margin-top: 25px;
   text-align: right;
-  margin-right: 15px;
   vertical-align: middle;
-  font-weight: 700;
-  /* background-color: white; */
 }
 
 
