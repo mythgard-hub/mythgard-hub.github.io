@@ -530,14 +530,14 @@ table.dl {
 #card_details_left {
   width: 210px;
   float: left;
-  padding: 30px;
+  margin-left: 30px;
   /* background-color: purple; */
 }
 
 #card_details_right {
   width: 210px;
   float: left;
-  padding: 30px;
+  margin-left: 30px;
   /* background-color: green; */
 }
 
@@ -547,7 +547,7 @@ img.card_details {
 }
 
 img.card_faction {
-  width: 18px;
+  height: 22px;
   /* float: left; */
   vertical-align: middle;
 }
@@ -558,8 +558,19 @@ img.card_faction {
   color: #458A9E;
   font-style: italic;
   text-align: left;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-bottom: 5px;
+}
+
+hr.card_detail {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, #458A9E, #458A9E, #1C2D35);
 }
 
 
@@ -571,8 +582,8 @@ img.card_faction {
 
 .card_detail_text {
   font-weight: 600;
-  font-size: 2em;
-  margin-bottom: 8px;
+  font-size: 1.8em;
+  margin-bottom: 18px;
 }
 
 
