@@ -45,7 +45,7 @@ body {
   border-right: .5px solid #F1810B;
 	margin: auto;
   background-color: #11222A;
-  height: 1500px;
+  height: 1750px;
 }
 
 #body_header {
@@ -827,25 +827,27 @@ table.cardlibrary {
   border: solid 0px #666;
   cellpadding: 0;
   /* background-color: yellow; */
+  border-collapse: collapse;
 }
 
 table.cardlibrary td {
   width: 100%;
   border: solid 0px #666;
-  cellpadding: 0;
-  margin-top: 7px;
+  cellpadding: 30px;
+  margin-top: 17px;
+  padding-bottom: 15px;
   /* background-color: yellow; */
 }
 
 #cardartcell {
-  width: 25%;
-  top-margin: 50px;
+  width: 33%;
+  margin-top: 50px;
   height: 185px;
   /* background-color: yellow; */
 }
 
 #cardart {
-  width: 120px;
+  width: 160px;
   /* margin: auto; */
 }
 
