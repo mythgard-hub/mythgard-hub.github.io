@@ -852,12 +852,12 @@ table.cardlibrary td {
 }
 
 #pathart {
-  width: 160px;
+  width: 240px;
   /* margin: auto; */
 }
 
 #pathartcell {
-  width: 33%;
+  width: 50%;
   top-margin: 20px;
   height: 135px;
   /* background-color: yellow; */
