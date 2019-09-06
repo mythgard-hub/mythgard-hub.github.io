@@ -1,0 +1,64 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Vertical alignment across a table row using vertical-align: baseline</title>
+  <style type="text/css" media="all">
+
+  input[type=text].a {
+    width: 350px;
+    height: 30px;
+    border: 1px solid #458A9E;
+    background-color: #D1D1D1;
+    border-radius: 7px;
+    margin-top: 5px;
+    outline: none;
+    padding-left: 9px;
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #458A9E;
+    opacity: 1; /* Firefox */
+    font-style: italic;
+    font-family: 'Exo 2', sans-serif;
+  }
+
+  input[type=text].deck_name {
+    width: 200px;
+    height: 30px;
+    border: 0px solid #458A9E;
+    background-color: #333333;
+    /* border-radius: 7px;
+    margin-top: 5px; */
+    outline: none;
+    /* padding-left: 9px; */
+  }
+
+    input[type=text].deck_name::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+    font-style: italic;
+    font-family: 'Exo 2', sans-serif;
+  }
+
+
+  </style>
+</head>
+
+<body>
+
+  <div id="decktitle">
+    <form>
+      <input class="a" type="text" name="card-search" placeholder="  Input class A..." >
+    </form>
+
+    <div id="decktitle">
+      <form>
+        <input class="deck_name" type="text" name="card-search" placeholder="  Input class deck_name..." >
+      </form>
+
+
+
+</body>
+</html>

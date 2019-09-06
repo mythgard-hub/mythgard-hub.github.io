@@ -113,7 +113,7 @@ body {
 #column-decklist {
   /* width: 288px; */
   width: 324px;
-  border-left: solid 1px orange;
+  border-left: solid 1px #F1810B;
   margin-right: 40px;
   float: left;
   /* background-color: orange; */
@@ -291,7 +291,7 @@ img.home_banner {
   margin-bottom: 10px;
   margin-left: 43px;
   margin-right: auto;
-  border-bottom: solid 1px orange;
+  border-bottom: solid 1px #F1810B;
   z-index: -1;
   object-fit: cover;
 }
@@ -341,8 +341,8 @@ img.mid_banner {
   margin-left: 30px;
   margin-top: 15px;
   float: left;
-  border-top: solid 1px orange;
-  border-bottom: solid 1px orange;
+  border-top: solid 1px #F1810B;
+  border-bottom: solid 1px #F1810B;
   width: 874px;
   /* text-align: right;
   vertical-align: middle; */
@@ -573,7 +573,6 @@ hr.card_detail {
   background-image: linear-gradient(to right, #458A9E, #458A9E, #1C2D35);
 }
 
-
 .card_detail_name {
   font-weight: 600;
   font-size: 2em;
@@ -643,6 +642,17 @@ img.essence {
   width: 10px;
 }
 
+/* Decksearch Table */
+
+table.decksearch {
+  width: 878px;
+  margin-left: 40px;
+  margin-top: 325px;
+  border-collapse: collapse;
+  padding: 20px;
+  overflow-wrap: break-word;
+}
+
 /* Decklist Table */
 
 #decklist_wrapper {
@@ -660,162 +670,197 @@ table.decklist {
 
 table.decklist td {
   border: 0px;
-  padding: 10px;
-  background-color: #333333;
-  font-size:.8em;
+  /* padding: 10px; */
+  /* background-color: #333333; */
+  /* font-size:.8em; */
 }
 
-/* table.decklist th {
-  text-align: right;
-} */
-
-table.decksearch {
-  width: 878px;
-  margin-left: 40px;
-  margin-top: 325px;
-  border-collapse: collapse;
-  padding: 20px;
-  overflow-wrap: break-word;
-
-  /* background-color: purple; */
+input[type=text].deck_name {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #458A9E;
+  border-radius: 7px;
+  background-color: #11222A;
+  /* border-radius: 7px;
+  margin-top: 5px; */
+  outline: none;
+  vertical-align: middle;
+  /* padding-left: 9px; */
 }
 
-table.decksearch tr {
-  border-top: 1px solid orange;
-  /* background-color: purple; */
+input[type=text].import_deck {
+  width: 300px;
+  width: 300px;
+  padding: 10px 0px 280px 0px;
+  border: 1px solid #458A9E;
+  border-radius: 7px;
+  background-color: #D1D1D1;
+  margin-top: 15px;
+  /* border-radius: 7px;
+  margin-top: 5px; */
+  outline: none;
+  /* vertical-align: middle; */
+  /* padding-left: 9px; */
+  /* padding: 0px 0px 380px 0px; */
 }
 
-table.decksearch tr:nth-child(even) {
-  background-color: #1C2D35;
+input[type=text].import_deck::placeholder {
+  /* vertical-align: top; */
+  /* padding: 0px 0px 280px 0px; */
+  text-align: top;
+  color:  #458A9E;
+  opacity: 1; /* Firefox */
+  font-style: italic;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  /* margin-top: 30px; */
 }
 
-table.decksearch td {
-  padding: 10px;
+input[type=text].deck_name::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  vertical-align: middle;
+  color:  #458A9E;
+  opacity: 1; /* Firefox */
+  font-style: normal;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-top: 30px;
 }
 
-#pathpower {
-  font-size:1em;
-  /* color:#ffffff; */
-  /* font-family: 'Exo 2', sans-serif; */
+.deckname {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+a.decklist {
+  font-size: .8em;
+  float: right;
+  margin-right: 6px;
+  /* color: green; */
+}
+
+td.pathpower {
+  font-size: 1em;
   background-color: #333333;
   text-align: left;
-  colspan="3";
   padding: 10px;
 }
 
-#mana_cost {
+td.mana_cost {
   font-size: 1.1em;
   background-color: #333333;
   color:#ffffff;
   font-family: arial;
+  padding: 10px;
+  text-align: center;
   /* font-weight: bold; */
 }
 
-#gem_cost_b {
-  width: 30px;
-  text-align: center;
+td.gem_cost {
+    padding: 10px;
+    width: 30px;
+    text-align: center;
+    font-family:verdana;
+    background-color: #333333;
+}
+
+td.blue {
   color:#4EB8E7;
-  font-family:verdana;
-  background-color: #333333;
 }
 
-#gem_cost_y {
-  width: 30px;
-  text-align: center;
+td.yellow {
   color: #E9E008;
-  font-family:verdana;
-  background-color: #333333;
 }
 
-#gem_cost_r {
-  width: 30px;
-  text-align: center;
+td.red {
   color: #DC1919;
-  font-family:verdana;
-  background-color: #333333;
 }
 
-#gem_cost_g {
-  width: 30px;
-  text-align: center;
+td.green {
   color: #30B170;
-  font-family:verdana;
-  background-color: #333333;
-  }
+}
 
-#gem_cost_o {
-  width: 30px;
-  text-align: center;
+td.orange {
   color: #F97800;
-  font-family:verdana;
 }
 
-#gem_cost_p {
-  width: 30px;
-  text-align: center;
+td.purple {
   color: #AC55E9;
-  font-family:verdana;
 }
 
-#norden {
-  background-color: #4EB8E7; text-align: left;
-}
-
-#aztlan {
-  background-color: #E9E008; text-align: left;
-}
-
-#orboros {
-  background-color: #DC1919; text-align: left;
-}
-
-#dreni {
-  background-color: #30B170; text-align: left;
-}
-
-#parsa {
-  background-color: #F97800; text-align: left;
-}
-
-#harmony {
-  background-color: #AC55E9; text-align: left;
-}
-
-card_name {
+td.card_name {
+  width: 300px;
+  padding: 10px;
+  text-align: left;
   font-size:1em;
   color: #333333;
   font-family: 'Exo 2', sans-serif;
   font-weight: 700;
+  font-size:.8em;
 }
 
-#card_quantity {
+td.norden {
+  background-color: #4EB8E7;
+}
+
+td.aztlan {
+  background-color: #E9E008;
+}
+
+td.oberos {
+  background-color: #DC1919; text-align: left;
+}
+
+td.dreni {
+  background-color: #30B170;
+}
+
+td.parsa {
+  background-color: #F97800;
+}
+
+td.harmony {
+  background-color: #AC55E9;
+}
+
+/* card_name {
+  font-size:1em;
+  color: #333333;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+} */
+
+td.card_quantity {
+  padding: 10px;
+  text-align: center;
   font-size:.7em;
   color:#ffffff;
   font-family:arial;
   font-style: italic;
 }
 
-#common {
+td.rarity {
   width: 4px;
   padding: 0px;
+}
+
+td.common {
   background-color: #6C583F;
 }
 
-#uncommon {
-  width: 4px;
-  padding: 0px;
+td.uncommon {
   background-color: #949695;
 }
 
-#rare {
-  width: 4px;
-  padding: 0px;
+td.rare {
   background-color: #BB9032;
 }
 
-#mythic {
-  width: 4px;
-  padding: 0px;
+td.mythic {
   background-color:  #3F78C1;
 }
 
@@ -861,6 +906,19 @@ table.cardlibrary td {
   top-margin: 20px;
   height: 135px;
   /* background-color: yellow; */
+}
+
+table.decksearch tr {
+  border-top: 1px solid orange;
+  /* background-color: purple; */
+}
+
+table.decksearch td {
+  padding: 10px;
+}
+
+table.decksearch tr:nth-child(even) {
+  background-color: #1C2D35;
 }
 
 .decksearch_name {
@@ -934,7 +992,7 @@ a.mb {
 }
 
 a.mb:hover {
-    color:  orange;
+    color:  #F1810B;
 }
 
 a.mb {
@@ -943,7 +1001,7 @@ a.mb {
 }
 
 a.creator {
-    color: orange;
+    color: #F1810B;
     text-decoration: none;
 }
 
@@ -956,15 +1014,15 @@ a.tabs {
 }
 
 a.tabs:hover {
-    color: orange;
+    color: #F1810B;
 }
 
 a.buttons {
-    color: #ffffff;
+    color: #F1810B;
 }
 
 a.buttons:hover {
-    color: orange;
+    color: #F1810B;
 }
 
 a.buttonst {
@@ -1014,6 +1072,16 @@ input[type=text].a.decks {
   width: 250px;
 }
 
+input[type=text].card_search {
+  border-radius: 7px;
+  width: 350px;
+  height: 30px;
+  border: 1px solid #458A9E;
+  margin-top: 5px;
+  outline: none;
+  padding-left: 9px;
+  clear: both;
+}
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #458A9E;
   opacity: 1; /* Firefox */
@@ -1032,12 +1100,14 @@ input[type=text].b {
   padding-left: 9px;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #458A9E;
-  opacity: 1; /* Firefox */
-  font-style: italic;
+/* ::placeholder {  */
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  /* color: #458A9E;
+  opacity: 1; */
+   /* Firefox */
+  /* font-style: italic;
   font-family: 'Exo 2', sans-serif;
-}
+} */
 
 .button {
   background-color: #333333;
@@ -1052,6 +1122,42 @@ input[type=text].b {
 .button1 {float: right;}
 
 .button2 {
+  padding: 10px;
+  border: 1px solid #458A9E;
+  background-color: #333333;
+  color: #ffffff;
+  width: 100px;
+  margin-left: 44px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: .6em;
+}
+
+.elvira {
+  padding: 10px;
+  border: 1px solid #458A9E;
+  /* background-color: purple; */
+  color: #ffffff;
+  width: 91px;
+  margin-left: 0px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.elvira.first {
+  padding: 10px;
+  border: 1px solid #458A9E;
+  /* background-color: purple; */
+  color: #ffffff;
+  margin-left: 28px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+
+/* .button2 {
   border: 1px solid #458A9E;
   background-color: #333333;
   color: #ffffff;
@@ -1060,10 +1166,11 @@ input[type=text].b {
   font-style: italic;
   font-weight: 600; f
   font-size: 1em;}
+} */
 
 .button2b {
   border: 1px solid #458A9E;
-  background-color: orange;
+  background-color: #F1810B;
   color: blue;
   width: 100px;
   margin-left: 44px;
@@ -1079,7 +1186,18 @@ input[type=text].b {
   margin-left: 28px;
   font-style: italic;
   font-weight: 600;
-  font-size: 1em;}
+  font-size: 1em;
+}
+
+.card_tabs {
+  /* background-color: purple; */
+  clear: both;
+}
+
+.deckbuilder_filter_buttons {
+  float: rightt;
+  margin-left: 60px;
+}
 
 .button4 {
   padding: 5px;
