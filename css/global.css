@@ -344,14 +344,6 @@ img.mid_banner {
   border-top: solid 1px #F1810B;
   border-bottom: solid 1px #F1810B;
   width: 874px;
-  /* text-align: right;
-  vertical-align: middle; */
-  /* clear: both;
-  float: left
-  height: 10px;
-  border: solid 1px green;
-  background-color: purple; */
-  /* background-color: white; */
 }
 
 #midbanner_text {
@@ -680,12 +672,21 @@ input[type=text].deck_name {
   height: 30px;
   border: 1px solid #458A9E;
   border-radius: 7px;
-  background-color: #11222A;
-  /* border-radius: 7px;
-  margin-top: 5px; */
+  background-color: #333333;
   outline: none;
   vertical-align: middle;
-  /* padding-left: 9px; */
+  margin: 0px 0px 0px -4px;
+}
+
+input[type=text].deck_name::placeholder {
+  color:  #FFFFFF;
+  opacity: 1; /* Firefox */
+  font-style: normal;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.5em;
+  padding-top: 10px;
+  font-weight: 600;
+  padding: 10px;
 }
 
 input[type=text].import_deck {
@@ -704,6 +705,7 @@ input[type=text].import_deck {
   /* padding: 0px 0px 380px 0px; */
 }
 
+
 input[type=text].import_deck::placeholder {
   /* vertical-align: top; */
   /* padding: 0px 0px 280px 0px; */
@@ -717,17 +719,7 @@ input[type=text].import_deck::placeholder {
   /* margin-top: 30px; */
 }
 
-input[type=text].deck_name::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  vertical-align: middle;
-  color:  #458A9E;
-  opacity: 1; /* Firefox */
-  font-style: normal;
-  font-family: 'Exo 2', sans-serif;
-  font-size: 1.5em;
-  font-weight: 600;
-  margin-left: 15px;
-  margin-top: 30px;
-}
+
 
 .deckname {
   font-size: 1.2em;
@@ -1043,6 +1035,16 @@ a.decksearch:hover {
     text-decoration: none;
 }
 
+a.filter {
+  color: #ffffff;
+}
+
+
+a.filter:hover {
+  opacity: 1;
+  -webkit-filter: drop-shadow(0px 0px 3px rgba(241,129,11,0.5));
+}
+
 #more_link {
   font-size:.7em;
   margin-top: -5px;
@@ -1121,8 +1123,23 @@ input[type=text].b {
 
 .button1 {float: right;}
 
+
+/* original */
 .button2 {
+  border: 1px solid #458A9E;
+  background-color: #333333;
+  color: #ffffff;
+  width: 100px;
+  margin-left: 44px;
+  font-style: italic;
+  font-weight: 600; f
+  font-size: 1em;
+}
+
+/* revised */
+/* .button2 {
   padding: 10px;
+  height: 45px;
   border: 1px solid #458A9E;
   background-color: #333333;
   color: #ffffff;
@@ -1131,7 +1148,7 @@ input[type=text].b {
   font-style: italic;
   font-weight: 600;
   font-size: .6em;
-}
+} */
 
 .elvira {
   padding: 10px;

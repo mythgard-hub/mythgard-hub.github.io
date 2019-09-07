@@ -172,28 +172,46 @@
 
       </div>
 
-      <div id="column-decklist" style="height: 1000px">
+      <div id="column-decklist">
 
-        <button class="button button3"><a href="deckb_template_import.html">IMPORT</a></button>
+        <button class="button button3"><a href="saved_deck_template.html">PUBLISH DECKLIST</a></button>
 
         <div style="text-align: center; width: 100%; margin: 0px 0px 10px 20px;">
-            - OR -
+          <div class="cslabel">DECK ARCHETYPE</div>
 
-            <a href="deckb_template_cards.html">Select a card to begin building</a></td>
+          <div class="cardsearch" style="border: solid 0px white; margin-top: 12px;">
+            <select>
+              <option>Unknown</option>
+              <option>Aggro</option>
+              <option>Aggro Midrange</option>
+              <option>Midrange</option>
+              <option>Control Midrange</option>
+              <option>Control</option>
+              <option>Combo</option>
+            </select>
+          </div>
+          <div class="cslabel">DECK TYPE</div>
+
+          <div class="cardsearch" style="border: solid 0px white; margin-top: 12px;">
+            <select>
+              <option>Standard</option>
+              <option>Draft</option>
+              <option>Tournament</option>
+            </select>
+          </div>
 
         </div>
+
+        <br><br>
 
         <div id="decklist_wrapper">
 
           <div class="deckname">
-            <form>
-              <input class="deck_name" type="text" placeholder="Untitled" >
-            </form>
-
+            My Awesome Decklist
           </div>
 
           <div id="deckcreator">
-            by <span style="color: #F1810B;">Guest</span><a class="decklist" href="deckb_template_cards.html"> &#9658;Login/Register</a>
+            by <a class="creator" href="">Mythgard Hub</a>
           </div>
 
           <table class="decklist" border="0" cellpadding="0">
@@ -201,22 +219,226 @@
 
           <tr>
            <td class="mana_cost" style="text-align: left" colspan="2">Path</td>
-           <td class="pathpower" colspan="3">NO PATH SELECTED <a class="decklist" href="deckb_template_paths.html">&#9658;edit</a></td>
+           <td class="pathpower" colspan="3">TURN OF SEASONS</td>
           </tr>
 
           <tr>
            <td class="mana_cost" style="text-align: left" colspan="2">Power</td>
-           <td class="pathpower" colspan="3">NO POWER SELECTED <a class="decklist" href="deckb_template_powers.html">&#9658;edit</a></td>
+           <td class="pathpower" colspan="3">SMITE</td>
           </tr>
 
           <tr>
-           <td class="card_name" style="text-align: left; color: #ffffff; font-size: 1em; font-weight: 500;" colspan="5">
+          <td class="mana_cost">1</td>
+          <td class="gem_cost blue">&bull;</td>
+          <td class="card_name norden">CAIRNHENGE</td>
+          <td class="card_quantity">x4</td>
+          <td class="rarity common">&nbsp;</td>
           </tr>
+
+          <tr>
+          <td class="mana_cost">4</td>
+          <td class="gem_cost blue">&bull;&bull;</td>
+          <td class="card_name norden">TAILROOT WURM</td>
+          <td class="card_quantity">x3</td>
+          <td class="rarity uncommon">&nbsp;</td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">5</td>
+          <td class="gem_cost blue">&bull;&bull;</td>
+          <td class="card_name norden">MAGNUS THORSSON</td>
+          <td class="card_quantity">x1</td>
+          <td class="rarity mythic">&nbsp;</td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">6</td>
+          <td class="gem_cost blue">&bull;&bull;&bull;</td>
+          <td class="card_name norden">CATACLYSM</td>
+          <td class="card_quantity">x2</td>
+          <td class="rarity rare"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">1</td>
+          <td class="gem_cost yellow">&bull;</td>
+          <td class="card_name aztlan">GOLDEN AXOLOTL</td>
+          <td class="card_quantity">x4</td>
+          <td class="rarity common"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">3</td>
+          <td class="gem_cost yellow">&bull;&bull;</td>
+          <td class="card_name aztlan">VICIOUS CYCLE</td>
+          <td class="card_quantity">x3</td>
+          <td class="rarity uncommon"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">6</td>
+          <td class="gem_cost yellow">&bull;&bull;&bull;</td>
+          <td class="card_name aztlan">HARVESTER</td>
+          <td class="card_quantity">x2</td>
+          <td class="rarity rare"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">7</td>
+          <td class="gem_cost yellow">&bull;&bull;&bull;</td>
+          <td class="card_name aztlan">SAPO, THE DEVOURER</td>
+          <td class="card_quantity">x1</td>
+          <td class="rarity mythic"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">1</td>
+          <td class="gem_cost red">&bull;</td>
+          <td class="card_name oberos">ORPHEUM OF HORRORS</td>
+          <td class="card_quantity">x3</td>
+          <td class="rarity uncommon"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">3</td>
+          <td class="gem_cost red">&bull;&bull;</td>
+          <td class="card_name oberos">IRONBELLY WYVERN</td>
+          <td class="card_quantity">x4</td>
+          <td class="rarity common"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">3</td>
+          <td class="gem_cost red">&bull;&bull;&bull;</td>
+          <td class="card_name oberos">SEA LORD'S TRIDENT</td>
+          <td class="card_quantity">x1</td>
+          <td class="rarity mythic"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">4</td>
+          <td class="gem_cost red">&bull;&bull;</td>
+          <td class="card_name oberos">WINGS OF ABBADON</td>
+          <td class="card_quantity">x2</td>
+          <td class="rarity rare"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">2</td>
+          <td class="gem_cost green">&bull;</td>
+          <td class="card_name dreni">GALLOWS BOY</td>
+          <td class="card_quantity">x4</td>
+          <td class="rarity common"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">2</td>
+          <td class="gem_cost green">&bull;</td>
+          <td class="card_name dreni">SPELLFLUX CAULDRON</td>
+          <td class="card_quantity">x2</td>
+          <td class="rarity rare"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">4</td>
+          <td class="gem_cost green">&bull;&bull;</td>
+          <td class="card_name dreni">FOCUSSED FRENZY</td>
+          <td class="card_quantity">x3</td>
+          <td class="rarity uncommon"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">7</td>
+          <td class="gem_cost green">&bull;&bull;&bull;</td>
+          <td class="card_name dreni">CHORT STAG</td>
+          <td class="card_quantity">x1</td>
+          <td class="rarity mythic"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">3</td>
+          <td class="gem_cost orange">&bull;</td>
+          <td class="card_name parsa">HALCYON DECREE</td>
+          <td class="card_quantity">x4</td>
+          <td class="rarity common"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">4</td>
+          <td class="gem_cost orange">&bull;</td>
+          <td class="card_name parsa">PARSA DIVINITY CANNON</td>
+          <td class="card_quantity">x3</td>
+          <td class="rarity uncommon"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">4</td>
+          <td class="gem_cost orange">&bull;&bull;</td>
+          <td class="card_name parsa">RAZIEL, KEEPER OF SECRETS</td>
+          <td class="card_quantity">x1</td>
+          <td class="rarity mythic"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">4</td>
+          <td class="gem_cost orange">&bull;&bull;</td>
+          <td class="card_name parsa">XERXIAN RECRUITER</td>
+          <td class="card_quantity">x2</td>
+          <td class="rarity rare"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">4</td>
+          <td class="gem_cost purple">&bull;</td>
+          <td class="card_name harmony">SHINOBI OF WIND</td>
+          <td class="card_quantity">x4</td>
+          <td class="rarity common"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">4</td>
+          <td class="gem_cost purple">&bull;&bull;</td>
+          <td class="card_name harmony">THRIVING SHADE</td>
+          <td class="card_quantity">x3</td>
+          <td class="rarity uncommon"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">7</td>
+          <td class="gem_cost purple">&bull;&bull;</td>
+          <td class="card_name harmony">BAKU BOOGEYMAN</td>
+          <td class="card_quantity">x2</td>
+          <td class="rarity rare"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">7</td>
+          <td class="gem_cost purple">&bull;&bull;&bull;</td>
+          <td class="card_name harmony">DAIGOJU SUPREME</td>
+          <td class="card_quantity">x1</td>
+          <td class="rarity mythic"></td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">3</td>
+          <td class="gem_cost blue">&bull;<span style="color: #CFA445;">&bull;</span></td>
+          <td class="card_name norden">EIRSDOTTIR</td>
+          <td class="card_quantity">x3</td>
+          <td class="rarity common">&nbsp;</td>
+          </tr>
+
+          <tr>
+          <td class="mana_cost">2</td>
+          <td class="gem_cost blue">&bull;<span style="color: #AB281E;">&bull;</span></td>
+          <td class="card_name oberos">FIRE EATER</td>
+          <td class="card_quantity">x3</td>
+          <td class="rarity common">&nbsp;</td>
+          </tr>
+
 
           </tbody>
           </table>
 
-        </div>
 
       </div>
 
