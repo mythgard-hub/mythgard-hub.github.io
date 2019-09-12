@@ -571,6 +571,11 @@ img.card_details {
   float: left;
 }
 
+img.card_details.token {
+  width: 222px;
+  float: left;
+}
+
 img.card_faction {
   height: 22px;
   /* float: left; */
