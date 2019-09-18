@@ -449,8 +449,15 @@ img.mid_banner {
 
 #ago_time {
   font-family: 'Exo 2', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: italic;
+}
+
+.archetype {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #458A9E;
 }
 
 #article_description {
