@@ -318,8 +318,8 @@ img.badge {
 } */
 
 img.home_banner {
-  width: 874px;
-  height: 70px;
+  /* width: 874px;
+  height: 70px; */
   margin-top: -10px;
   margin-bottom: 10px;
   margin-left: 43px;
@@ -379,7 +379,7 @@ img.mid_banner {
   width: 874px;
 }
 
-#midbanner_text {
+.midbanner_text {
   color: #4EB8E7;
   font-size: 2em;
   font-weight: 700;
