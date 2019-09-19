@@ -8,6 +8,31 @@ body {
   color: #ffffff;
 }
 
+p {
+  color: white;
+  margin-bottom: 10px;
+  width: 66%;
+  line-height: 1.3em;
+  font-family: 'Vollkorn', serif;
+  font-weight: 300;
+  /* font-family: 'Alegreya', serif; */
+}
+
+h1 {
+  margin-bottom: 10px;
+
+}
+
+h2 {
+  margin-bottom: 10px;
+
+}
+
+h3 {
+  margin-bottom: 7px;
+
+}
+
 /* Background Images */
 
 #background {
@@ -400,6 +425,15 @@ img.mid_banner {
   margin-left: 40px;
   margin-top: 30px;
 }
+
+.articles_column {
+  width: 877px;
+  float: left;
+  margin-right: 35px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
 
 /* CARD SEARCH INPUT LABELS ============================= */
 
