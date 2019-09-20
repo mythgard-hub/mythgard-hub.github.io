@@ -11,26 +11,35 @@ body {
 p {
   color: white;
   margin-bottom: 10px;
-  width: 66%;
+  width: 100%;
   line-height: 1.3em;
   font-family: 'Vollkorn', serif;
-  font-weight: 300;
+  font-weight: 400;
   /* font-family: 'Alegreya', serif; */
 }
 
 h1 {
   margin-bottom: 10px;
-
+  color: #DC1919;
+  font-size: 1.8em;
+  text-transform: uppercase;
 }
 
 h2 {
   margin-bottom: 10px;
-
 }
 
 h3 {
   margin-bottom: 7px;
+}
 
+table.npg {
+  padding: 10px;
+  text-align: center;
+}
+
+td.path {
+  padding: 10px;
 }
 
 /* Background Images */
