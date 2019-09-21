@@ -8,19 +8,18 @@ body {
   color: #ffffff;
 }
 
-p {
+/* p {
   color: white;
   margin-bottom: 10px;
   width: 100%;
   line-height: 1.3em;
   font-family: 'Vollkorn', serif;
   font-weight: 400;
-  /* font-family: 'Alegreya', serif; */
 }
 
 h1 {
   margin-bottom: 10px;
-  color: #DC1919;
+  color: #4EB8E7;
   font-size: 1.8em;
   text-transform: uppercase;
 }
@@ -40,7 +39,7 @@ table.npg {
 
 td.path {
   padding: 10px;
-}
+} */
 
 /* Background Images */
 
