@@ -1,51 +1,89 @@
 p {
-  color: white;
   margin-bottom: 10px;
-  width: 100%;
   line-height: 1.3em;
   font-family: 'Vollkorn', serif;
   font-weight: 400;
-  /* font-family: 'Alegreya', serif; */
 }
 
 h1 {
-  margin-bottom: 10px;
   color: #4EB8E7;
   font-size: 1.8em;
   text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h2 {
+  margin-top: 7px;
   margin-bottom: 10px;
 }
 
 h3 {
+  margin-top: 10px;
   font-weight: 600;
   margin-bottom: 7px;
+}
+
+h4 {
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+.article_title {
+  color: #4EB8E7;
+  font-size: 2.7em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.toc_column {
+  width: 91%;
+  margin: auto;
+}
+
+table.toc {
+  width: 100%;
+  margin-top: 25px;
+}
+
+table.toc td {
+  vertical-align: top;
+}
+
+.articles_column {
+  width: 70%;
+  border: solid 0px white;
+  margin: auto;
 }
 
 table.npg {
   padding: 10px;
   text-align: center;
+  font-size: .8em;
+  margin: auto;
+  border-collapse: collapse;
 }
 
 td.path {
   padding: 10px;
 }
 
-table.toc {
-  width: 100%;
-  margin-top: 25px;
-  /* background-color: purple; */
+img.article {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
-table.toc td {
-  /* background-color: purple; */
-  vertical-align: top;
-}
-
-ul {
-  list-style-type: none;
-  /* color: purple; */
-  margin-left: 25px;
+.article_caption {
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
 }
