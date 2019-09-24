@@ -1,3 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Neuton:300,400,400i,700&display=swap);
+
+  /* <link href="https://fonts.googleapis.com/css?family=Exo+2:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Spectral:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Volkhov:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noticia+Text:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Literata:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Caudex:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Laila:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Aleo:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Faustina:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pridi:200,300,400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Markazi+Text:400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Pro:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Manuale:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Vesper+Libre:400,500,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Unna:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Eczar:400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Trirong:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Yrsa:400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Taviraj:300,300i,400,400i,500,500i,600,600i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Tinos:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Neuton:300,400,400i,700&display=swap" rel="stylesheet"> */
+
+
+
 /* <!-- <div style="margin: auto; width: 875px; border: .5px solid #73AD21; padding: 10px; text-align: center; height: 27.5px;">*</a></div> --> */
 
 /* Gloabal styles for page body */
@@ -101,7 +142,7 @@ body {
   /* background-color: purple; */
 }
 
-#decksearch-header {
+#search_results-header {
   /* width: 672px; */
   /* width: 878px; */
   float: left;
@@ -173,7 +214,10 @@ body {
   clear: both;
 }
 
-
+.inner_single_column {
+   width: 91%;
+   margin: auto;
+}
 
 /* MODULES========================================================== */
 
@@ -391,14 +435,13 @@ img.mid_banner {
 
 /* DECKS PAGE SEARCH RESULTS BODY ============================= */
 
-.results {
+.results_label {
+  /* align: left; */
   float: left;
   font-size: 2em;
   color: #4EB8E7;
-  margin-right: 35px;
+  /* margin-right: 35px; */
   font-weight: 700;
-  margin-left: 40px;
-  margin-top: 30px;
 }
 
 /* CARD SEARCH INPUT LABELS ============================= */
@@ -679,16 +722,17 @@ img.essence {
   width: 10px;
 }
 
-/* Decksearch Table */
+/* search_results Table */
 
-table.decksearch {
-  width: 878px;
-  margin-left: 40px;
-  margin-top: 325px;
+table.search_results {
+  width: 91%;
+  margin: auto;;
   border-collapse: collapse;
   padding: 20px;
   overflow-wrap: break-word;
 }
+
+
 
 /* Decklist Table */
 
@@ -763,8 +807,6 @@ input[type=text].import_deck::placeholder {
   font-weight: 500;
   /* margin-top: 30px; */
 }
-
-
 
 .deckname {
   font-size: 1.2em;
@@ -864,13 +906,6 @@ td.harmony {
   background-color: #AC55E9;
 }
 
-/* card_name {
-  font-size:1em;
-  color: #333333;
-  font-family: 'Exo 2', sans-serif;
-  font-weight: 700;
-} */
-
 td.card_quantity {
   padding: 10px;
   text-align: center;
@@ -945,33 +980,33 @@ table.cardlibrary td {
   /* background-color: yellow; */
 }
 
-table.decksearch tr {
+table.search_results tr {
   border-top: 1px solid orange;
   /* background-color: purple; */
 }
 
-table.decksearch td {
+table.search_results td {
   padding: 10px;
 }
 
-table.decksearch tr:nth-child(even) {
+table.search_results tr:nth-child(even) {
   background-color: #1C2D35;
 }
 
-.decksearch_name {
+.search_results_name {
   width:300px;
   top-margin: 50px;
   height: 50px;
   /* background-color: yellow; */
 }
 
-.decksearch_factions {
+.search_results_factions {
   width: 260px;
   /* border: 1px red solid;
   background-color: yellow; */
 }
 
-.decksearch_essence {
+.search_results_essence {
   /* float: left; */
   /* margin-left: 1em; */
   text-align: center;
@@ -982,7 +1017,7 @@ table.decksearch tr:nth-child(even) {
   /* background-color: purple; */
 }
 
-.decksearch_archetype {
+.search_results_archetype {
   /* float: left; */
   /* margin-left: 1em; */
   text-align: center;
@@ -993,13 +1028,38 @@ table.decksearch tr:nth-child(even) {
   /* background-color: green; */
 }
 
-.decksearch_date {
+.search_results_date {
   width: 150px;
   color: #ffffff;
   font-weight: 500;
   margin-left: 30px;
   text-align: right;
   font-size: .8em
+}
+
+.search_results_placement {
+  /* width: 150px; */
+  color: #ffffff;
+  font-weight: 600;
+  margin-left: 30px;
+  text-align: right;
+  font-size: 1em;
+  vertical-align: top;
+}
+
+/* Events Page Components */
+
+.event_title {
+  float: left;
+  font-size: 1.7em;
+  /* margin-bottom: 7px; */
+  font-weight: 600;
+}
+
+.event_date {
+  font-size: .7em;
+  font-weight: 400;
+  color: #458A9E;
 }
 
 /* Link and hover styles */
@@ -1070,12 +1130,12 @@ a.buttonst:hover {
     color: #4EB8E7;
 }
 
-a.decksearch {
+a.search_results {
     color: #ffffff;
     text-decoration: none;
 }
 
-a.decksearch:hover {
+a.search_results:hover {
     color: #4EB8E7;
     text-decoration: none;
 }
@@ -1083,7 +1143,6 @@ a.decksearch:hover {
 a.filter {
   color: #ffffff;
 }
-
 
 a.filter:hover {
   opacity: 1;
@@ -1099,8 +1158,6 @@ a.filter:hover {
   font-style: italic; */
   text-align: right;
 }
-
-
 
 /* Inputs and Buttons */
 
@@ -1147,15 +1204,6 @@ input[type=text].b {
   padding-left: 9px;
 }
 
-/* ::placeholder {  */
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  /* color: #458A9E;
-  opacity: 1; */
-   /* Firefox */
-  /* font-style: italic;
-  font-family: 'Exo 2', sans-serif;
-} */
-
 .button {
   background-color: #333333;
   padding: 10px;
@@ -1180,20 +1228,6 @@ input[type=text].b {
   font-size: 1em;
 }
 
-/* revised */
-/* .button2 {
-  padding: 10px;
-  height: 45px;
-  border: 1px solid #458A9E;
-  background-color: #333333;
-  color: #ffffff;
-  width: 100px;
-  margin-left: 44px;
-  font-style: italic;
-  font-weight: 600;
-  font-size: .6em;
-} */
-
 .elvira {
   padding: 10px;
   border: 1px solid #458A9E;
@@ -1216,18 +1250,6 @@ input[type=text].b {
   font-weight: 600;
   font-size: 1em;
 }
-
-
-/* .button2 {
-  border: 1px solid #458A9E;
-  background-color: #333333;
-  color: #ffffff;
-  width: 100px;
-  margin-left: 44px;
-  font-style: italic;
-  font-weight: 600; f
-  font-size: 1em;}
-} */
 
 .button2b {
   border: 1px solid #458A9E;
