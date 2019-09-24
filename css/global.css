@@ -203,6 +203,24 @@ body {
   /* opacity: 0.5; */
 }
 
+.third_column_panel {
+  display: table;
+  float: left;
+  width: 266px;
+  height: 90px;
+  padding: 10px;
+  border-style: solid;
+  border-color: #4EB8E7;
+  border-width: .5px;
+  margin-right: 5px;
+  background-color: #1C2D35;
+}
+
+.third_column_panel content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
 
 #footer {
   height: 100px;
@@ -997,7 +1015,36 @@ table.search_results tr:nth-child(even) {
   width:300px;
   top-margin: 50px;
   height: 50px;
-  /* background-color: yellow; */
+}
+
+.search_results_name {
+  width:300px;
+  top-margin: 50px;
+  height: 50px;
+}
+
+.panel_content.event_name {
+  font-weight: 700;
+}
+
+.panel_content.event_date {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.search_results.event_name {
+  width:300px;
+  top-margin: 50px;
+  height: 50px;
+  font-weight: 700;
+}
+
+.search_results.event_date {
+  width:300px;
+  text-align: right;
+  font-weight: 300;
+  font-size: 1em;
+  color: #ffffff;
 }
 
 .search_results_factions {
@@ -1062,6 +1109,29 @@ table.search_results tr:nth-child(even) {
   color: #458A9E;
 }
 
+.announcement {
+  border: 0px white solid;
+  /* width: 100%; */
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.announcement content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.announcement p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: .8em;
+  font-weight: 300;
+  width: 90%;
+}
+
+
 /* Link and hover styles */
 
 a {
@@ -1073,6 +1143,10 @@ a.tn {
     color: #FFFFFF;
     text-decoration: none;
 }
+
+/* a.section_head {
+  color: #4EB8E7;
+} */
 
 a.selected {
     color: #4EB8E7;
