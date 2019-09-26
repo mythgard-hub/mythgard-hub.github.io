@@ -257,6 +257,20 @@ body {
   padding-left: 25px;
 }
 
+.upper.middle {
+  float: left;
+  width: 300px;
+  /* margin: auto; */
+  text-align: middle;
+  color: green;
+}
+
+.upper.middle content {
+  display: table-cell;
+  vertical-align: middle;
+  border: 1px solid green;
+}
+
 .upper.right {
     float: right;
     margin-right: 5%;
