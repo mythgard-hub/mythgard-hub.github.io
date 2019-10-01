@@ -1,0 +1,28 @@
+{
+  "name": "mythgard-express",
+  "version": "1.0.0",
+  "description": "The Mythard Hub back-end server",
+  "repository": "https://github.com/mythgard-hub/mythgard-hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Alex Middeleer",
+  "license": "MIT",
+  "dependencies": {
+    "@graphile-contrib/pg-simplify-inflector": "^5.0.0-beta.1",
+    "compression": "^1.7.4",
+    "express": "4.17.x",
+    "helmet": "^3.21.0",
+    "postgraphile": "4.4.x",
+    "postgraphile-plugin-connection-filter": "^1.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-recommended": "^4.0.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "1.18.2"
+  }
+}
