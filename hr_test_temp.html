@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <!-- <link href="css/global.css" rel="stylesheet" /> -->
+
+
+  <style type="text/css" media="all">
+
+    hr.ograd {
+      margin-top: 10px;
+      margin-bottom: 12px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(
+        to right,
+        #11222a,
+        #f1810b,
+        #11222a
+      );
+    }
+
+    hr.bgrad {
+      border-top: ${theme.borderAccent};
+      -webkit-mask-image: -webkit-gradient(
+        linear,
+        left top,
+        right bottom,
+        from(rgba(0, 0, 0, 0)),
+        to(rgba(0, 0, 0, 1))
+      );
+    }
+
+hr.bgrad {
+  border-top: 1px solid orange;   /* border-top: ${theme.borderAccent}; */
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    /* left top,
+    right bottom, */
+    from(rgba(0, 0, 0, 0)),
+    to(rgba(0, 0, 0, 1)),
+    /* to(rgba(0, 0, 0, 0)), */
+  );
+}
+
+hr.tryme {
+  border-top: 0 px solid orange;
+  background-image: linear-gradient(to right, #11222A, #F1810B, #11222A);
+  /* background: linear-gradient(to right, red, yellow, red); */
+  /* height: 5px; */
+  /* border-top: ${theme.borderAccent};
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(rgba(0, 0, 0, 0)),
+    to(rgba(0, 0, 0, 1))
+  ); */
+}
+
+hr.original {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #11222A, #F1810B, #11222A);
+    background-image: linear-gradient(to right, #11222A, #F1810B, #11222A);
+}
+
+  </style>
+</head>
+
+<body>
+
+  <br>
+  <hr class="bgrad" style="width: 66%">
+  <br>
+
+  <br>
+  <hr class="tryme" style="width: 66%">
+  <br>
+
+  <br>
+  <hr class="original" style="width: 66%">
+  <br>
+
+
+</body>
+</html>

@@ -203,7 +203,7 @@ body {
   /* opacity: 0.5; */
 }
 
-.third_column_panel {
+.event_panel {
   display: table;
   float: left;
   width: 266px;
@@ -216,7 +216,7 @@ body {
   background-color: #1C2D35;
 }
 
-.third_column_panel content {
+.event_panel content {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
