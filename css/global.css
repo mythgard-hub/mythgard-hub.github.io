@@ -203,7 +203,7 @@ body {
   /* opacity: 0.5; */
 }
 
-.event_panel {
+.eventPanel {
   display: table;
   float: left;
   width: 266px;
@@ -216,7 +216,7 @@ body {
   background-color: #1C2D35;
 }
 
-.event_panel content {
+.eventPanel .eventListing {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
