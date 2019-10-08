@@ -1037,23 +1037,23 @@ table.search_results tr:nth-child(even) {
   height: 50px;
 }
 
-.panel_content.event_name {
+.panelContent.eventName {
   font-weight: 700;
 }
 
-.panel_content.event_date {
+.panelContent.eventDate {
   font-size: 1em;
   font-weight: 400;
 }
 
-.search_results.event_name {
+.search_results.eventName {
   width:300px;
   top-margin: 50px;
   height: 50px;
   font-weight: 700;
 }
 
-.search_results.event_date {
+.search_results.eventDate {
   width:300px;
   text-align: right;
   font-weight: 300;
@@ -1117,7 +1117,7 @@ table.search_results tr:nth-child(even) {
   font-weight: 600;
 }
 
-.event_date {
+.eventDate {
   font-size: .7em;
   font-weight: 400;
   color: #458A9E;
