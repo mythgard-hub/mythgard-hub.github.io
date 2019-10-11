@@ -1316,7 +1316,7 @@ input[type=text].b {
   font-size: 1em;
 }
 
-.elvira {
+.short {
   padding: 10px;
   border: 1px solid #458A9E;
   /* background-color: purple; */
@@ -1328,7 +1328,7 @@ input[type=text].b {
   font-size: 1em;
 }
 
-.elvira.first {
+.short.first {
   padding: 10px;
   border: 1px solid #458A9E;
   /* background-color: purple; */
