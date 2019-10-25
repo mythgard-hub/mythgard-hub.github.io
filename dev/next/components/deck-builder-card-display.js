@@ -18,7 +18,7 @@ export default function DeckBuilderCardDisplay(props) {
     factions
   } = props;
 
-  const cardFilters = {
+  const leftToRightFade = {
     text: cardSearchText,
     rarities: cardRarities,
     manaCosts: cardManaCosts,
@@ -64,7 +64,7 @@ export default function DeckBuilderCardDisplay(props) {
       <TabGroup onChange={setTab} labels={tabLabels} name="cardsPathsPowers" />
       {currentTab === 'Cards' && (
         <div className="collection" data-cy="deckBuilderCollection">
-          <SomeCards filters={cardFilters} onCardClick={onCollectionClick} />
+          <SomeCards filters={leftToRightFade} onCardClick={onCollectionClick} />
         </div>
       )}
       {currentTab === 'Paths' && (

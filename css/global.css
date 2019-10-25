@@ -154,7 +154,7 @@ body {
 #column-decklist {
   /* width: 288px; */
   width: 324px;
-  border-left: solid 1px #F1810B;
+  border-left: solid 0px #F1810B;
   margin-right: 40px;
   float: left;
   /* background-color: orange; */
@@ -478,7 +478,7 @@ img.mid_banner {
 
 /* CARD SEARCH INPUT LABELS ============================= */
 
-.cslabel {
+.searchLabel {
   font-size: 1em;
   font-weight: 600;
   color: #ffffff;
@@ -488,7 +488,7 @@ img.mid_banner {
   margin-bottom: 5px;
 }
 
-.cslabel.first {
+.searchLabel.first {
   margin-top: -10px;
 }
 
@@ -717,6 +717,26 @@ img.faction_icon {
 img.faction_icon:hover {
   opacity: 1;
   -webkit-filter: drop-shadow(0px 0px 3px rgba(241,129,11,0.7));
+}
+
+img.upVote {
+  opacity: 0.5;
+}
+
+img.upVote:hover {
+  opacity: 1;
+  /* -webkit-filter: drop-shadow(0px 0px 3px rgba(241,129,11,0.7)); */
+}
+
+.favorite {
+    width: 25px;
+    height: 21px;
+    background: url("images/heartFavorite.png") no-repeat;
+    display: inline-block;
+}
+
+.favorite:hover {
+    background: url("images/heartFavoriteOn.png") no-repeat;
 }
 
 img.cost {
@@ -1558,7 +1578,7 @@ hr.cbody {
   width: 95%;
 }
 
-hr.cardfilters {
+hr.leftToRightFade {
   margin-top: 10px;
   margin-bottom: 8px;
   margin-left: auto;

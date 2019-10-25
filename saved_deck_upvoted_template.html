@@ -8,9 +8,9 @@
   <meta name="author" content="Mythgard Hub">
 
   <!-- Open Graph Properties -->
-  <meta property="og:title" content="Mythgard Hub | Community Hub for Mythgard Card Game" />
+  <meta property="og:title" content="Ashen Midrange by PapaCapricorn" />
   <meta property="og:site_name" content="Mythgard Hub" />
-  <meta property="og:description" content="A fan-built site for Mythgard including Decklists, Card Database and more." />
+  <meta property="og:description" content="Standard Mythgard Deck, OP, 17250 Essence, Updated 23 OCT 2019" />
   <meta property="og:url" content="https://mythgardhub.com/" />
   <meta property="og:type" content="article" />
   <meta property="og:image" content="https://cdn.mythgardhub.com/identity/og-image.jpg" />
@@ -19,6 +19,22 @@
   <link href="https://fonts.googleapis.com/css?family=Exo+2:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
 
   <link href="css/global.css" rel="stylesheet" />
+
+  <style>
+
+      .favorite {
+          width: 25px;
+          height: 21px;
+          background: url("images/heartFavorite.png") no-repeat;
+          display: inline-block;
+      }
+
+      .favorite:hover {
+          background: url("images/heartFavoriteOn.png") no-repeat;
+      }
+
+    </style>
+
 
 </head>
 
@@ -51,174 +67,39 @@
 
             <img src="https://cdn.mythgardhub.com/identity/MGH_CrownLogo_150.png" style="float: left; width: 80px; margin-left: 25px; margin-top: 10px;">
 
-            <!-- <img src="https://mythgardhub.s3-us-west-2.amazonaws.com/mgh/MGH_CrownLogo.png" style="float: left; width: 80px; margin-left: 25px; margin-top: 10px;"> -->
-
             <img src="https://cdn.mythgardhub.com/identity/MGH_wordmark.png" style="float: left; width: 205px; margin-top: 30px;">
           </a>
 
           <div id="topnav_buttons">
-            <a class="tn" href="cards_template.html">&#9658; CARDS</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="tn" href="decks_template.html">&#9658; DECKS</a> &nbsp;&nbsp;&nbsp;&nbsp;  <a class="selected" href="deckb_template.html">&#9658; DECK BUILDER</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="tn" href="events_template.html">&#9658; EVENTS</a> &nbsp;&nbsp;&nbsp;&nbsp;<a class="tn" href="articles_template.html">&#9658; MEDIA</a>
+            <a class="tn" href="cards_template.html">&#9658; CARDS</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="selected" href="decks_template.html">&#9658; DECKS</a> &nbsp;&nbsp;&nbsp;&nbsp;  <a class="tn" href="deckb_template.html">&#9658; DECK BUILDER</a> &nbsp;&nbsp;&nbsp;&nbsp; <a class="tn" href="events_template.html">&#9658; EVENTS</a> &nbsp;&nbsp;&nbsp;&nbsp;<a class="tn" href="articles_template.html">&#9658; MEDIA</a>
           </div>
 
           <hr class="top">
 
           <div id="section">
-            <img style="z-index: -1; margin-left: 20px;" src="https://cdn.mythgardhub.com/banner/Banner_DeckBuilder.jpg">
+            <img style="z-index: -1; margin-left: 20px;" src="https://cdn.mythgardhub.com/banner/Banner_Decks.jpg">
             <div id="section_title">
-              DECK BUILDER
+              DECKS
             </div>
           </div>
 
-          <hr style="margin-top: 17px;" class="top db">
+          <hr style="margin-top: 17px;" class="top">
 
       </div>
 
       <div id="column-library">
 
-        <div class="searchLabel">
-        <!-- <div> -->
-          CARD SEARCH
+        <!-- <hr class="cbody"> -->
+        <div class="deckname" style="font-size: 1.5em;">
+          My Awesome Decklist
         </div>
 
-        <input class="card_search" type="text" placeholder="  Search..."  >
-
-        <button class="button button2" style="float: right; text-align: middle; margin-top: 0px; margin-right: 50px;"><a href="">CLEAR ALL</a></button>
-
-
-        <div class="faction_filters">
-          <img class="faction_icon" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0000_blue.png"><img class="faction_icon" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0001_yellow.png"><img class="faction_icon" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0002_red.png"><img class="faction_icon" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0003_green.png"><img class="faction_icon" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0004_orange.png"><img class="faction_icon" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0005_purple.png">
+        <div id="deckcreator">
+          by <a class="creator" href="">Mythgard Hub</a>
         </div>
+        &nbsp;
 
-        <div style="float: left; height: 50px; margin-top: 15px; margin-left: 0px; width: 500px">
-
-          <span style="color: #ccc;">View Cards</span>
-
-          <label class="switch">
-            <input type="checkbox">
-            <span class="slider round"></span>
-          </label>
-
-          <span style="color: #B4E185;"><a href="deckb_template_filters.html">View Filters</a>
-
-        </div>
-
-        <div class="card_tabs">
-          <button class="button button4">CARDS</button>
-          <button class="button button5"><a class="tabs" href="deckb_template_paths.html">PATHS</a></button>
-          <button class="button button5"><a class="tabs" href="deckb_template_powers.html">POWERS</a></button>
-        </div>
-
-        <hr class="cbody">&nbsp;
-
-        <table class="cardlibrary">
-        <tbody>
-
-          <tr style="padding-bottom: 20px;">
-
-            <td id="cardartcell"><a href="deckb_template_cards.html"><img id="cardart" src="https://s3-us-west-2.amazonaws.com/cards.mythgardhub.com/core/Cairnhenge.png"></a></td>
-
-            <td id="cardartcell"><a href="deckb_template_cards.html"><img id="cardart" src="https://s3-us-west-2.amazonaws.com/cards.mythgardhub.com/core/Fey_Plagiarist.png"></a></td>
-
-            <td id="cardartcell"><a href="deckb_template_cards.html"><img id="cardart"  src="https://s3-us-west-2.amazonaws.com/cards.mythgardhub.com/core/Field_Of_Poppies.png"></a></td>
-
-         </tr>
-
-         <tr style="margin-top: 50px;">
-
-            <td id="cardartcell"><a href="deckb_template_cards.html"><img id="cardart" src="https://s3-us-west-2.amazonaws.com/cards.mythgardhub.com/core/Freki_Scout.png"></a></td>
-
-            <td id="cardartcell"><a href="deckb_template_cards.html"><img id="cardart" src="https://s3-us-west-2.amazonaws.com/cards.mythgardhub.com/core/Grease_Monkey.png"></a></td>
-
-            <td id="cardartcell"><a href="deckb_template_cards.html"><img id="cardart" src="https://s3-us-west-2.amazonaws.com/cards.mythgardhub.com/core/Honed_Edge.png"></a></td>
-
-         </tr>
-
-         <tr>
-
-           <td id="cardartcell"><a href="deckb_template_cards.html"><img id="cardart"  src="https://s3-us-west-2.amazonaws.com/cards.mythgardhub.com/core/Demolition_Speedway.png"></a></td>
-
-
-           <td id="cardartcell"><a href="deckb_template_cards.html"><img id="cardart" src="https://s3-us-west-2.amazonaws.com/cards.mythgardhub.com/core/Jaunt.png"></a></td>
-
-
-           <td id="cardartcell"><a href="deckb_template_cards.html"><img id="cardart" src="https://s3-us-west-2.amazonaws.com/cards.mythgardhub.com/core/Singing_Stone.png"></a></td>
-
-           <!-- <td id="cardartcell"><a href="deckb_template_cards.html"><img id="cardart" src="https://s3-us-west-2.amazonaws.com/cards.mythgardhub.com/core/Berserkr_Sickness.png"></a></td> -->
-
-          </tr>
-
-          <tr>
-
-           <td id="cardartcell"><a href="deckb_template_cards.html"><img id="cardart"  src="https://s3-us-west-2.amazonaws.com/cards.mythgardhub.com/core/Breath_Of_Wintertide.png"></a></td>
-
-           <td id="cardartcell"><a href="deckb_template_cards.html"><img id="cardart" src="https://s3-us-west-2.amazonaws.com/cards.mythgardhub.com/core/Brising_Necklace.png"></a></td>
-
-           <td id="cardartcell"><a href="deckb_template_cards.html"><img id="cardart" src="https://s3-us-west-2.amazonaws.com/cards.mythgardhub.com/core/Demolition_Speedway.png"></a></td>
-
-         </tr>
-
-         <tr>
-
-           <td id="cardartcell"><a href="deckb_template_cards.html"><img id="cardart" src="https://s3-us-west-2.amazonaws.com/cards.mythgardhub.com/core/Draupnir_Band.png"></a></td>
-
-           <td id="cardartcell"><a href="deckb_template_cards.html"><img id="cardart"  src="https://s3-us-west-2.amazonaws.com/cards.mythgardhub.com/core/Einherjar_Thane.png"></a></td>
-
-           <td id="cardartcell"><a href="deckb_template_cards.html"><img id="cardart" src="https://s3-us-west-2.amazonaws.com/cards.mythgardhub.com/core/Eir_Healing.png"></a></td>
-
-        </tr>
-
-        </tbody>
-        </table>
-
-      </div>
-
-      <div id="column-decklist">
-
-        <button class="button button3"><a href="saved_deck_template.html">PUBLISH DECKLIST</a></button>
-
-
-        <div style="text-align: center; width: 100%; margin: 0px 0px 10px 20px;">
-
-
-          <div class="searchLabel">DECK ARCHETYPE</div>
-
-          <div class="cardsearch" style="border: solid 0px white; margin-top: 12px;">
-            <select>
-              <option>Unknown</option>
-              <option>Aggro</option>
-              <option>Aggro Midrange</option>
-              <option>Midrange</option>
-              <option>Control Midrange</option>
-              <option>Control</option>
-              <option>Combo</option>
-            </select>
-          </div>
-          <div class="searchLabel">DECK TYPE</div>
-
-          <div class="cardsearch" style="border: solid 0px white; margin-top: 12px;">
-            <select>
-              <option>Standard</option>
-              <option>Draft</option>
-              <option>Tournament</option>
-            </select>
-          </div>
-
-          <br>
-          <span style="font-weight: 300;">Enter deck Type and Archetype
-
-        </div>
-
-        <br>
-
-        <div id="decklist_wrapper">
-
-          <div class="deckname">
-            My Awesome Decklist
-          </div>
-
-          <div id="deckcreator">
-            by <a class="creator" href="">Mythgard Hub</a>
-          </div>
+        <div id="decklist_wrapper" style="width: 400px">
 
           <table class="decklist" border="0" cellpadding="0">
           <tbody>
@@ -445,6 +326,60 @@
           </tbody>
           </table>
 
+
+      </div>
+
+
+        <table class="cardlibrary">
+        <tbody>
+
+
+        </tbody>
+        </table>
+
+      </div>
+
+      <div id="column-decklist" style="height: 1200px">
+
+
+
+        <div style="text-align: left; width: 100%; margin: 20px 0px 10px 20px; border: solid 0px white;">
+
+          <button class="button short"><a href="saved_deck_template_export.html">EXPORT</a></button>
+          <button class="button short"><a href="deckb_template_cards.html">EDIT</a></button>
+
+
+          <div style="display: inline; float: right; vertical-align: middle; margin-top: 5px;">
+              <a href="saved_deck_template.html"><img class="upVote" src="images\upVoteButton.svg" style="height: 41px; opacity: 1;"></a>
+          </div>
+
+          <div style="display: inline; float: right; vertical-align: middle; border: solid 1px #458A9E; padding: 10px 7px 10px 7px; color: #458A9E; margin-top: 5px;">
+              +99
+          </div>
+
+          <div style="display: inline; float: right; vertical-align: middle; margin: 15px 9px 0px 0px;">
+            <a href="saved_deck_template_favorited.html">
+              <div class="favorite">
+              </div>
+            </a>
+          </div>
+
+          <div class="searchLabel first" style="margin-top: 15px;">ESSENCE</div>
+          <hr class="leftToRightFade">
+          <img class="essence" src="https://cdn.mythgardhub.com/filters/essence.png"><span style="color: #B4E185">99,999</span>
+
+          <div class="searchLabel first" style="margin-top: 15px;">FACTIONS</div>
+          <hr class="leftToRightFade">
+                <img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0000_blue.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0001_yellow.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0002_red.png"><img src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0003_green.png" class="faction_list"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0004_orange.png"><img class="faction_list" src="https://cdn.mythgardhub.com/filters/Filter-Icons_0000s_0003s_0005_purple.png">
+
+          <div class="searchLabel first" style="margin-top: 15px;">DATE CREATED</div>
+          <hr class="leftToRightFade">
+          October 25, 2019
+
+
+        </div>
+
+        <br><br>
 
       </div>
 
