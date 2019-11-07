@@ -968,24 +968,24 @@ td.card_quantity {
 }
 
 td.rarity {
-  width: 4px;
+  width: 7px;
   padding: 0px;
 }
 
 td.common {
-  background-color: #6C583F;
+  background-color: #926950;
 }
 
 td.uncommon {
-  background-color: #949695;
+  background-color: #A5A5A5;
 }
 
 td.rare {
-  background-color: #BB9032;
+  background-color: #FDF007;
 }
 
 td.mythic {
-  background-color:  #3F78C1;
+  background-color: #33A0E0;
 }
 
 
